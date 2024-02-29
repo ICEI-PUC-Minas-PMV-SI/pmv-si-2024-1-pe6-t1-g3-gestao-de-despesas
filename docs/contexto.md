@@ -93,15 +93,37 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Os usuários podem criar grupos para gerenciar despesas. | ALTA | 
+|RF-002| Deve ser possível adicionar membros aos grupos.  | ALTA |
+|RF-003| Os criadores dos grupos têm a capacidade de editar as configurações do grupo. | ALTA | 
+|RF-004| A aplicação deve garantir que apenas membros autorizados tenham acesso aos grupos de despesas.   | ALTA |
+|RF-006| Os usuários devem ser capazes de registrar despesas, indicando o valor, a descrição e a data. | ALTA | 
+|RF-007| Deve ser possível associar uma despesa a um grupo específico.  | ALTA |
+|RF-008| A aplicação deve calcular automaticamente como dividir as despesas entre os membros do grupo. | ALTA | 
+|RF-009| Os usuários podem ajustar a distribuição das despesas de forma a ser feita igualmente ou por porcentagem.   | ALTA |
+|RF-010| Os usuários devem ter acesso a um histórico detalhado de todas as transações do grupo. | ALTA | 
+|RF-011| Os usuários devem ser capazes de se cadastrar na aplicação. | MÉDIA |
+|RF-012| A aplicação deve ser capaz de exibir resumos mensais ou semanais.  | BAIXA |
+|RF-013| Os membros do grupo devem receber notificações sobre despesas recentes, alterações na divisão de despesas. | BAIXA | 
+|RF-014| A aplicação deve fornecer relatórios visuais sobre os gastos do grupo.  | BAIXA |
+
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| A aplicação deverá respeitar às restrições impostas pela LGPD. (SEGURANÇA)| ALTA | 
+|RNF-002| A aplicação deve garantir a segurança dos dados do usuário. (SEGURANÇA) |  ALTA | 
+|RNF-003| A aplicação deve ser compatível com os principais navegadores web e sistemas operacionais móveis. (AMBIENTE) | ALTA | 
+|RNF-004| A aplicação deve lidar eficientemente com um grande volume de requisições. (CONFIABILIDADE)  |  ALTA | 
+|RNF-005| A aplicação deve ser capaz de lidar com um aumento no número de usuários e requisições sem degradação significativa do desempenho. (CONFIABILIDADE) | ALTA | 
+|RNF-006| A interface do usuário deve ser intuitiva e fácil de usar, mesmo para usuários iniciantes. (USABILIDADE) |  ALTA | 
+|RNF-007| A aplicação deve ter um tempo de resposta aceitável para garantir uma experiência do usuário fluida. (CONFIABILIDADE) | MÉDIA | 
+|RNF-008| Tempo de resposta de cada requisição deve ser < 5000 ms. (CONFIABILIDADE) |  MÉDIA | 
+|RNF-009| O sistema deverá fazer uso de design responsivo nas interfaces gráficas.(USABILIDADE) | MÉDIA | 
+|RNF-010| O sistema deve estar disponível 99,99% do tempo.(DISPONIBILIDADE) |  MÉDIA | 
+|RNF-011| O sistema deve ser responsivo para rodar em um dispositivos móvel.(DISPONIBILIDADE) | MÉDIA | 
+|RNF-012| O sistema deverá rodar nas plataformas iOS, Android e Web. (PORTABILIDADE) |  MÉDIA | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
