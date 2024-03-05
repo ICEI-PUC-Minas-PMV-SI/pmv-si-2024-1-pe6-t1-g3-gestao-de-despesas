@@ -73,6 +73,17 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 
+| EU COMO...                                      | QUERO/PRECISO ...                               | PARA ...                                           |
+|--------------------------------------------------|------------------------------------|----------------------------------------|
+| Usuário do sistema | Criar grupos para compartilhar despesas | Garantir que mais pessoas participem ativamente de todas as despesas |
+| Usuário do sistema | Adicionar pessoas aos grupos | Garantir que todas as pessoas vejam e adicionem despesas ao grupo |
+| Usuário do sistema | Adicionar despesas de forma fácil e transparente | Assegurar que todas as despesas do grupo sejam adicionadas com precisão |
+| Usuário do sistema | Dividir despesas de acordo com as contribuições de cada pessoa | Evitar mal-entendidos financeiros durante a viagem e garantir que todos contribuam de maneira justa para uma experiência agradável. |
+| Usuário do sistema | Receber notificações sobre novas despesas | Ficar sempre informado sobre as contribuições dos membros do grupo, facilitando a gestão e evitando esquecimentos. |
+| Usuário do sistema | Acessar um histórico detalhado de transações | Ter uma visão clara de todas as despesas passadas, facilitando a análise e o acerto de contas dentro do grupo. |
+| Administrador do sistema | Alterar permissões                       | Permitir que usuários possam administrar contas e grupos, tornando a gestão mais flexível e adaptável às necessidades do sistema. |
+
+
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
 > **Links Úteis**:
