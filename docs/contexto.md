@@ -1,13 +1,10 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+No cenário atual, é comum que as pessoas compartilhem despesas em eventos sociais, viagens, moradia e outras situações do cotidiano. Diante desse contexto surge a necessidade de simplificar as situações que envolvem divisão de despesas. Para atender a essa demanda, apresentamos um aplicativo projetado para tornar a gestão financeira compartilhada uma tarefa descomplicada e eficiente. 
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+Devido à complexidade envolvida na divisão de despesas, muitas pessoas enfrentam dificuldades nesses momentos, especialmente durante viagens entre amigos. Antes da criação de soluções específicas, era comum encontrar dificuldades para acompanhar quem pagou por quê, quanto cada um deve e como equilibrar as contas de maneira justa e transparente. Essa falta de clareza e organização frequentemente resultava em atritos e desconfortos nos relacionamentos entre os envolvidos, prejudicando a experiência compartilhada. 
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
@@ -19,15 +16,15 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
 
 Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+
+O objetivo principal da aplicação é fornecer uma plataforma intuitiva e eficaz para a divisão, registro e gestão de despesas compartilhadas entre grupos. Com esse objetivo definido, serão estabelecidos objetivos específicos que guiarão o desenvolvimento do software. Entre esses objetivos, destacam-se o desenvolvimento de uma interface acessível e intuitiva, além da implementação de funcionalidades eficientes para o registro e gerenciamento das despesas.
  
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+A justificativa para desenvolver este aplicativo surge da necessidade comum de simplificar a divisão de despesas em eventos sociais, como viagens e festas. Conflitos decorrentes da divisão desigual dos gastos são frequentes e podem afetar negativamente as relações entre os participantes. Com o objetivo de fornecer uma solução acessível e eficaz, concentramos nossos esforços no desenvolvimento de uma plataforma intuitiva para rastrear e gerenciar despesas compartilhadas, promovendo uma experiência mais harmoniosa para todos os envolvidos.
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
