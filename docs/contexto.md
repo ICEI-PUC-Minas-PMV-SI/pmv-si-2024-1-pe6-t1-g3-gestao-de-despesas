@@ -44,9 +44,12 @@ Adicione informações sobre o público-alvo por meio de uma descrição textual
 
 O público-alvo do aplicativo é variado, incluindo pessoas entre 18 e 50 anos. Ele abrange desde estudantes universitários que dividem despesas até famílias e grupos de amigos que viajam juntos. Ao entender melhor esse público, podemos encontrar padrões de comportamento, necessidades compartilhadas e diferentes níveis de habilidade com a tecnologia. Isso ajuda a melhorar o aplicativo e adaptá-lo às necessidades do mercado. 
 
+Diagrama de persona
+
+
 | Stakeholder  | Descrição  |
 | ------ | ------ |
-|Usuários Finais |Estudantes universitários, chefe de família e grupos de amigos viajantes que utilizam o aplicativo para dividir despesas entre si. |
+|Usuários Finais |Estudantes universitários, chefes de família e grupos de amigos viajantes que utilizam o aplicativo para dividir despesas entre si. |
 |Desenvolvedores |Equipe responsável por manter e atualizar o aplicativo, garantindo sua funcionalidade e adaptabilidade às necessidades dos usuários. |
 
 # Especificações do Projeto
