@@ -42,6 +42,13 @@ Adicione informações sobre o público-alvo por meio de uma descrição textual
 > - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
 > - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
 
+O público-alvo do aplicativo é variado, incluindo pessoas entre 18 e 50 anos. Ele abrange desde estudantes universitários que dividem despesas até famílias e grupos de amigos que viajam juntos. Ao entender melhor esse público, podemos encontrar padrões de comportamento, necessidades compartilhadas e diferentes níveis de habilidade com a tecnologia. Isso ajuda a melhorar o aplicativo e adaptá-lo às necessidades do mercado. 
+
+| Stakeholder  | Descrição  |
+| ------ | ------ |
+|Usuários Finais |Estudantes universitários, chefe de família e grupos de amigos viajantes que utilizam o aplicativo para dividir despesas entre si. |
+|Desenvolvedores |Equipe responsável por manter e atualizar o aplicativo, garantindo sua funcionalidade e adaptabilidade às necessidades dos usuários. |
+
 # Especificações do Projeto
 
 Esta parte do documento visa proporcionar uma compreensão detalhada da especificação do projeto. Para isso, foram utilizadas técnicas e ferramentas como o mapa de empatia para a definição das personas, histórias de usuários, requisitos funcionais e não funcionais, além das restrições do projeto. A análise será realizada com base nas personas previamente desenvolvidas, abordando suas necessidades, desafios e aspirações para garantir a entrega de um produto centrado no usuário. 
