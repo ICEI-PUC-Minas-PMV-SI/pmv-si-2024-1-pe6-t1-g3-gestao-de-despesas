@@ -64,6 +64,16 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
+TESTE LAYOUT
+João, 18 anos, um jovem prestes a ingressar na faculdade, está focado em construir sua independência financeira. Ele busca maneiras de administrar suas despesas de forma responsável e participa ativamente de grupos online sobre educação financeira. 
+João busca por uma solução que facilite a divisão justa de despesas entre amigos, proporcionando controle fácil sobre as despesas quando viaja entre amigos, vai a bares e até mesmo em organização de festas.
+**Pensamentos e Sentimentos*
+- João está no último ano do ensino médio, ansioso pela transição para a faculdade. 
+- Preocupa-se em estabelecer sua independência financeira e aprender a gerenciar despesas. 
+- Aspira a ter experiências sociais sem comprometer suas economias.
+
+FIM TESTE LAOUT
+
 **João**, 18 anos, um jovem prestes a ingressar na faculdade, está focado em construir sua independência financeira. Ele busca maneiras de administrar suas despesas de forma responsável e participa ativamente de grupos online sobre educação financeira. 
 
 João busca por uma solução que facilite a divisão justa de despesas entre amigos, proporcionando controle fácil sobre as despesas quando viaja entre amigos, vai a bares e até mesmo em organização de festas.  
