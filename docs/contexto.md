@@ -368,7 +368,7 @@ Em resumo, o aplicativo busca fornecer uma solução abrangente e eficiente para
 
 # Gerenciamento de Projeto
 
-Para gerenciamento do projeto foram desenvolvidos os controles abaixo, garantindo assim visibilidade atualizada do cronograma e esforço aplicado na execução de cada etapa, além de ter maior assertividade quanto ao dimensionamento de recursos por tarefa.
+Para gerenciamento do projeto foram desenvolvidos os controles abaixo, garantindo assim atualização do cronograma e esforço aplicado na execução de cada etapa, além de ter maior assertividade quanto ao dimensionamento de recursos por tarefa.
 
 ## Gerenciamento de Tempo
 
