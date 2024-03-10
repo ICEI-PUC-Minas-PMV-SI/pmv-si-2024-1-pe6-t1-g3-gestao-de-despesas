@@ -373,16 +373,15 @@ De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar 
 ## Gerenciamento de Tempo
 
 Diagrama simplificado indicando as principais etapas do projeto.
-
 ![Diagrama simplificado do projeto](img/DiagramaSimplificado.jpg)
 
-O gráfico de Gantt abaixo abaixo indica a linha do tempo previsto para execução das 5 etapas do projeto, assim como os dias estimados para cada etapa, o percentual de progresso e as datas estimadas.
+O gráfico de Gantt abaixo indica a linha do tempo previsto para execução das 5 etapas do projeto, assim como os dias estimados para cada etapa, o percentual de progresso e as datas estimadas.
 
 ![Gráfico de Gantt de etapas do projeto](img/CronogramaProjetoEtapas.jpg)
 
 ## Gerenciamento de Equipe
 
-O cronograma abaixo indica a linha do tempo previsto para cada tarefa, o percentual de progresso, as datas estimadas e os integrantes da equipe responsáveis pela etapa.
+O cronograma abaixo indica a linha do tempo previsto para cada tarefa, o percentual de progresso, as datas estimadas e os integrantes da equipe que estão atuando na etapa.
 
 ![Gestao de tarefas por integrante](img/GerenciamentoTarefaEquipes.jpg)
 
