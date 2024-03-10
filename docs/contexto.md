@@ -377,13 +377,11 @@ Diagrama simplificado indicando as principais etapas do projeto.
 
 O gráfico de Gantt abaixo indica a linha do tempo prevista para execução das 5 etapas do projeto, assim como os dias estimados para cada etapa, o percentual de progresso e as datas estimadas.
 
-
 ![Gráfico de Gantt de etapas do projeto](img/CronogramaProjetoEtapas.jpg)
 
 ## Gerenciamento de Equipe
 
 O cronograma abaixo indica a linha do tempo prevista para cada tarefa, o percentual de progresso, as datas estimadas e os integrantes da equipe que estão atuando na etapa.
-
 
 ![Gestao de tarefas por integrante](img/GerenciamentoTarefaEquipes.jpg)
 
