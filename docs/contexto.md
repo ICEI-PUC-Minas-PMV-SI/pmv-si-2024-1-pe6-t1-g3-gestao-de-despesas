@@ -376,7 +376,9 @@ Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o ger
 
 ![Diagrama de rede simplificado notação francesa (método francês)](img/02-diagrama-rede-simplificado.png)
 
-![Diagrama de rede simplificado notação francesa (método francês)](docs/img/Diagrama Simplificado.png)
+![Diagrama de rede simplificado notação francesa (método francês)]
+
+[(docs/img/Diagrama Simplificado.png)]
 
 https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t1-g3-gestao-de-despesas/blob/37efa78807321dca7cb4f1e3871314b0ce8dc979/docs/img/Diagrama%20Simplificado.jpg
 
