@@ -380,6 +380,8 @@ Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o ger
 
 https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t1-g3-gestao-de-despesas/blob/37efa78807321dca7cb4f1e3871314b0ce8dc979/docs/img/Diagrama%20Simplificado.jpg
 
+[https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t1-g3-gestao-de-despesas/blob/cf0eabffef715b01e98892ee9ec5b97e038aeb0f/docs/img/Diagrama%20Simplificado.jpg]
+
 docs/img/Diagrama Simplificado.jpg
 
 
