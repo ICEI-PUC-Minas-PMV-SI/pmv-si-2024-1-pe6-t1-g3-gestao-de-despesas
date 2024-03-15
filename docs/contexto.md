@@ -281,7 +281,7 @@ O cronograma abaixo indica a linha do tempo previsto para cada tarefa, o percent
 
 Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
 
-![Arquitetura da Solução](img/02-mob-arch.png)
+![Arquitetura de Solução](img/diagrama-de-arquitetura.draw (2).png)
 
 ## Tecnologias Utilizadas
 As tecnologias que utilizaremos para implementar a solução:
