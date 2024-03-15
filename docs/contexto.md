@@ -3,48 +3,20 @@
 No cenário atual, é comum que as pessoas compartilhem despesas em eventos sociais, viagens, moradia e outras situações do cotidiano. Diante desse contexto surge a necessidade de simplificar as situações que envolvem divisão de despesas. Para atender a essa demanda, apresentamos um aplicativo projetado para tornar a gestão financeira compartilhada uma tarefa descomplicada e eficiente. 
 
 ## Problema
+
 Devido à complexidade envolvida na divisão de despesas, muitas pessoas enfrentam dificuldades nesses momentos, especialmente durante viagens entre amigos. Antes da criação de soluções específicas, era comum encontrar dificuldades para acompanhar quem pagou por quê, quanto cada um deve e como equilibrar as contas de maneira justa e transparente. Essa falta de clareza e organização frequentemente resultava em atritos e desconfortos nos relacionamentos entre os envolvidos, prejudicando a experiência compartilhada. 
-
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
-
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
-
 O objetivo principal da aplicação é fornecer uma plataforma intuitiva e eficaz para a divisão, registro e gestão de despesas compartilhadas entre grupos. Com esse objetivo definido, serão estabelecidos objetivos específicos que guiarão o desenvolvimento do software. Entre esses objetivos, destacam-se o desenvolvimento de uma interface acessível e intuitiva, além da implementação de funcionalidades eficientes para o registro e gerenciamento das despesas.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
 A justificativa para desenvolver este aplicativo surge da necessidade comum de simplificar a divisão de despesas em eventos sociais, como viagens e festas. Conflitos decorrentes da divisão desigual dos gastos são frequentes e podem afetar negativamente as relações entre os participantes. Com o objetivo de fornecer uma solução acessível e eficaz, concentramos nossos esforços no desenvolvimento de uma plataforma intuitiva para rastrear e gerenciar despesas compartilhadas, promovendo uma experiência mais harmoniosa para todos os envolvidos.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
-
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
-
 O público-alvo do aplicativo é variado, incluindo pessoas entre 18 e 50 anos. Ele abrange desde estudantes universitários que dividem despesas até famílias e grupos de amigos que viajam juntos. Ao entender melhor esse público, podemos encontrar padrões de comportamento, necessidades compartilhadas e diferentes níveis de habilidade com a tecnologia. Isso ajuda a melhorar o aplicativo e adaptá-lo às necessidades do mercado. 
-
-Diagrama de persona
 
 
 | Stakeholder  | Descrição  |
