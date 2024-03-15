@@ -287,10 +287,15 @@ Definição de como o software é estruturado em termos dos componentes que faze
 As tecnologias que utilizaremos para implementar a solução:
 
 **Back-end**: Utilizaremos o C# e o framework ASP.NET Core
+
 **Front-end**: JavaScript e a biblioteca React
+
 **Mobile**: React Native
+
 **IDE de desenvolvimento**: Visual Studio
+
 **Mensageria**: Kafka ou RabbitMQ
+
 **Banco de dados**: MySQL
 
 ## Hospedagem
