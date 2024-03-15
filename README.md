@@ -1,4 +1,4 @@
-# TÍTULO DO PROJETO
+# GESTÃO DE DESPESAS
 
 `CURSO: Sistemas de Informação`
 
@@ -6,7 +6,7 @@
 
 `SEMESTRE: 6º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto em desenvolvimento é um aplicativo que visa simplificar a gestão financeira compartilhada em diversas situações. Diante da dificuldade envolvida na gestão de despesas, especialmente entre amigos e grupos, o aplicativo visa eliminar as dificuldades ao acompanhar quem pagou por quê, quanto cada um deve e como equilibrar as contas de maneira justa e transparente. Com uma interface intuitiva e eficaz, a plataforma permitirá o registro e gerenciamento das despesas compartilhadas, promovendo uma experiência mais harmoniosa para todos os envolvidos, independentemente de seus perfis e habilidades tecnológicas.
 
 ## Integrantes
 
