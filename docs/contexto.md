@@ -36,195 +36,115 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas  
 
-TESTE LAYOUT  
 João, 18 anos, um jovem prestes a ingressar na faculdade, está focado em construir sua independência financeira. Ele busca maneiras de administrar suas despesas de forma responsável e participa ativamente de grupos online sobre educação financeira.  
-João busca por uma solução que facilite a divisão justa de despesas entre amigos, proporcionando controle fácil sobre as despesas quando viaja entre amigos, vai a bares e até mesmo em organização de festas.  
-**Pensamentos e Sentimentos**  
-- João está no último ano do ensino médio, ansioso pela transição para a faculdade. 
-- Preocupa-se em estabelecer sua independência financeira e aprender a gerenciar despesas. 
+João busca por uma solução que facilite a divisão justa de despesas entre amigos, proporcionando controle fácil sobre as despesas quando viaja entre amigos, vai a bares e até mesmo em organização de festas.
+
+**Pensamentos e Sentimentos**
+- João está no último ano do ensino médio, ansioso pela transição para a faculdade.  
+- Preocupa-se em estabelecer sua independência financeira e aprender a gerenciar despesas.  
 - Aspira a ter experiências sociais sem comprometer suas economias.  
 
-FIM TESTE LAOUT  
-
-**João**, 18 anos, um jovem prestes a ingressar na faculdade, está focado em construir sua independência financeira. Ele busca maneiras de administrar suas despesas de forma responsável e participa ativamente de grupos online sobre educação financeira. 
-
-João busca por uma solução que facilite a divisão justa de despesas entre amigos, proporcionando controle fácil sobre as despesas quando viaja entre amigos, vai a bares e até mesmo em organização de festas.  
-
-**Pensamentos e Sentimentos:**
-
-João está no último ano do ensino médio, ansioso pela transição para a faculdade. 
-
-Preocupa-se em estabelecer sua independência financeira e aprender a gerenciar despesas. 
-
-Aspira a ter experiências sociais sem comprometer suas economias. 
-
-**Ambiente:**
-
-Frequenta escola, participa de atividades extracurriculares. 
-
-Ambiente digital: ativo em redes sociais e aplicativos de mensagens. 
-
-**Amigos:**
-
-Círculo social diversificado, composto por colegas de classe e amigos online. 
-
-Compartilha despesas em eventos sociais e saídas com amigos. 
-
-**Ganhos:**
-
-Deseja aprender a administrar seu dinheiro de forma responsável. 
-
-Procura maneiras simples e eficazes de dividir despesas entre amigos. 
-
-**Dor:** 
-
-Medo de gastar mais dinheiro do que possui. 
-
-Dificuldade em organizar e rastrear despesas compartilhadas. 
-
-Receio de conflitos relacionados à divisão de gastos. 
-
-**O que ele vê:** 
-
-Amigos buscando formas inovadoras de lidar com dinheiro. 
-
-Influenciadores digitais compartilhando dicas financeiras. 
-
-**O que ele escuta:** 
-
-Amigos falando sobre suas experiências financeiras e desafios. 
-
-Professores incentivando a responsabilidade financeira. 
-
-**O que ele fala e faz:** 
-
-Compartilha dicas e truques financeiros com amigos. 
-
-Participa de grupos online sobre educação financeira  
-
-**Maria**, 27 anos, uma profissional em ascensão, valoriza seu tempo e procura eficiência na gestão de suas despesas sociais e profissionais. Conectada a amigos por meio de redes sociais, ela busca soluções tecnológicas para otimizar tarefas e equilibrar gastos. 
-
-Maria aspira a manter uma vida equilibrada entre o trabalho e o lazer, utilizando aplicativos eficientes para dividir despesas e minimizar conflitos. 
-
-**Pensamentos e Sentimentos:**
-
-Maria trabalha em tempo integral, buscando crescimento profissional. 
-
-Valoriza seu tempo livre e procura formas eficientes de gerenciar despesas sociais. 
-
-Aspira a manter um equilíbrio entre vida profissional e social. 
-
-**Ambiente:** 
-
-Ambiente de trabalho corporativo. 
-
-Círculo social diversificado, composto por colegas de trabalho e amigos próximos. 
-
-**Amigos:** 
-
-Compartilha despesas em eventos sociais e viagens com amigos. 
-
-Conectada a amigos por meio de aplicativos de mensagens e redes sociais. 
-
-**Ganhos:** 
-
-Busca praticidade e rapidez na gestão de despesas compartilhadas. 
-
-Deseja equilibrar gastos sociais e profissionais de forma eficiente. 
-
-**Dor:** 
-
-Falta de tempo para rastrear todas as despesas compartilhadas. 
-
-Estresse relacionado a cobranças e disputas sobre divisão de despesas. 
-
-Dificuldade em manter o equilíbrio financeiro. 
-
-**O que ela vê:**
-
-Colegas de trabalho adotando soluções tecnológicas para otimizar tarefas. 
-
-Amigos utilizando aplicativos financeiros para dividir despesas. 
-
-**O que ela escuta:** 
-
-Amigos compartilhando experiências positivas com aplicativos de divisão de despesas. 
-
-Influenciadores falando sobre a importância da gestão financeira eficiente. 
-
-**O que ela fala e faz:** 
-
-Indica aplicativos eficientes para amigos. 
-
-Participa de grupos online sobre equilíbrio entre vida profissional e pessoal. 
-
-**Ana**, 38 anos, uma profissional consolidada com responsabilidades familiares, busca soluções organizacionais para sua vida financeira. Enfrentando desafios na divisão de despesas em eventos sociais, ela valoriza ferramentas que ofereçam praticidade e reduzam o estresse financeiro. Ana compartilha dicas de organização financeira com amigos e familiares, buscando harmonia nas despesas familiares e sociais através de uma gestão transparente e eficiente. 
-
-**Pensamentos e Sentimentos:** 
-
-Ana é uma profissional consolidada, com responsabilidades familiares. 
-
-Valoriza a eficiência e procura soluções organizacionais para sua vida financeira. 
-
-Aspira a manter harmonia nas despesas familiares e sociais. 
-
-**Ambiente:** 
-
-Ambiente de trabalho profissional e ambiente doméstico. 
-
-Círculo social composto por amigos de longa data e familiares. 
-
-**Amigos:** 
-
-Compartilha despesas em eventos sociais e viagens em grupos familiares e de amigos. 
-
-Conectada a amigos e familiares por meio de redes sociais e eventos sociais. 
-
-**Ganhos:** 
-
-Busca solução que facilite a organização e transparência nas despesas compartilhadas. 
-
-Valoriza ferramentas que ofereçam praticidade e reduzam o estresse financeiro. 
-
-**Dor:** 
-
-Desafios em dividir as despesas de eventos sociais. 
-
-Necessidade de conciliar gastos familiares e individuais. 
-
-Preocupação com clareza nas divisões para evitar mal-entendidos. 
-
-**O que ela vê:** 
-
-Amigos e colegas de trabalho utilizando tecnologias para otimizar tarefas. 
-
-Familiares compartilhando soluções para gestão financeira familiar. 
-
-**O que ela escuta:** 
-
-Amigos e familiares compartilhando experiências positivas com aplicativos de divisão de despesas. 
-
-Profissionais falando sobre a importância de uma gestão financeira eficiente. 
-
-**O que ela fala e faz:** 
-
-Compartilha dicas de organização financeira com amigos e familiares. 
-
-Participa de grupos online sobre gestão financeira familiar 
-
-*Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
-
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.*
+**Ambiente**
+- Frequenta escola, participa de atividades extracurriculares.  
+- Ambiente digital: ativo em redes sociais e aplicativos de mensagens.  
+
+**Amigos**
+- Círculo social diversificado, composto por colegas de classe e amigos online.  
+- Compartilha despesas em eventos sociais e saídas com amigos.  
+
+**Ganhos**
+- Deseja aprender a administrar seu dinheiro de forma responsável.  
+- Procura maneiras simples e eficazes de dividir despesas entre amigos.  
+
+**Dor**
+- Medo de gastar mais dinheiro do que possui.  
+- Dificuldade em organizar e rastrear despesas compartilhadas.  
+- Receio de conflitos relacionados à divisão de gastos.  
+
+**O que ele vê**
+- Amigos buscando formas inovadoras de lidar com dinheiro.  
+- Influenciadores digitais compartilhando dicas financeiras.  
+
+**O que ele escuta**
+- Amigos falando sobre suas experiências financeiras e desafios.  
+- Professores incentivando a responsabilidade financeira. 
+
+**O que ele fala e faz**
+- Compartilha dicas e truques financeiros com amigos.  
+- Participa de grupos online sobre educação financeira.  
+
+Maria, 27 anos, uma profissional em ascensão, valoriza seu tempo e procura eficiência na gestão de suas despesas sociais e profissionais. Conectada a amigos por meio de redes sociais, ela busca soluções tecnológicas para otimizar tarefas e equilibrar gastos.  
+Maria aspira a manter uma vida equilibrada entre o trabalho e o lazer, utilizando aplicativos eficientes para dividir despesas e minimizar conflitos.  
+
+**Pensamentos e Sentimentos**
+- Maria trabalha em tempo integral, buscando crescimento profissional.  
+- Valoriza seu tempo livre e procura formas eficientes de gerenciar despesas sociais.  
+- Aspira a manter um equilíbrio entre vida profissional e social.  
+
+**Ambiente**
+- Ambiente de trabalho corporativo.  
+- Círculo social diversificado, composto por colegas de trabalho e amigos próximos.  
+
+**Amigos**
+- Compartilha despesas em eventos sociais e viagens com amigos.  
+- Conectada a amigos por meio de aplicativos de mensagens e redes sociais.  
+
+**Ganhos**
+- Busca praticidade e rapidez na gestão de despesas compartilhadas.  
+- Deseja equilibrar gastos sociais e profissionais de forma eficiente.  
+
+**Dor**
+- Falta de tempo para rastrear todas as despesas compartilhadas.  
+- Estresse relacionado a cobranças e disputas sobre divisão de despesas.  
+- Dificuldade em manter o equilíbrio financeiro.  
+
+**O que ela vê**
+- Colegas de trabalho adotando soluções tecnológicas para otimizar tarefas.  
+- Amigos utilizando aplicativos financeiros para dividir despesas.  
+
+**O que ela escuta**
+- Amigos compartilhando experiências positivas com aplicativos de divisão de despesas.  
+- Influenciadores falando sobre a importância da gestão financeira eficiente.  
+
+**O que ela fala e faz**
+- Indica aplicativos eficientes para amigos.  
+- Participa de grupos online sobre equilíbrio entre vida profissional e pessoal.  
+
+Ana, 38 anos, uma profissional consolidada com responsabilidades familiares, busca soluções organizacionais para sua vida financeira. Enfrentando desafios na divisão de despesas em eventos sociais, ela valoriza ferramentas que ofereçam praticidade e reduzam o estresse financeiro. Ana compartilha dicas de organização financeira com amigos e familiares, buscando harmonia nas despesas familiares e sociais através de uma gestão transparente e eficiente.  
+
+**Pensamentos e Sentimentos**
+- Ana é uma profissional consolidada, com responsabilidades familiares.  
+- Valoriza a eficiência e procura soluções organizacionais para sua vida financeira.  
+- Aspira a manter harmonia nas despesas familiares e sociais.  
+
+**Ambiente**
+- Ambiente de trabalho profissional e ambiente doméstico.  
+- Círculo social composto por amigos de longa data e familiares.  
+
+**Amigos**
+- Compartilha despesas em eventos sociais e viagens em grupos familiares e de amigos.  
+- Conectada a amigos e familiares por meio de redes sociais e eventos sociais.  
+
+**Ganhos**
+- Busca solução que facilite a organização e transparência nas despesas compartilhadas.  
+- Valoriza ferramentas que ofereçam praticidade e reduzam o estresse financeiro.  
+
+**Dor**
+- Desafios em dividir as despesas de eventos sociais.  
+- Necessidade de conciliar gastos familiares e individuais.  
+- Preocupação com clareza nas divisões para evitar mal-entendidos.  
+
+**O que ela vê**
+- Amigos e colegas de trabalho utilizando tecnologias para otimizar tarefas.  
+- Familiares compartilhando soluções para gestão financeira familiar.  
+
+**O que ela escuta**
+- Amigos e familiares compartilhando experiências positivas com aplicativos de divisão de despesas.  
+- Profissionais falando sobre a importância de uma gestão financeira eficiente.  
+
+**O que ela fala e faz**
+- Compartilha dicas de organização financeira com amigos e familiares.  
+Participa de grupos online sobre gestão financeira familiar
 
 ## Histórias de Usuários
 
