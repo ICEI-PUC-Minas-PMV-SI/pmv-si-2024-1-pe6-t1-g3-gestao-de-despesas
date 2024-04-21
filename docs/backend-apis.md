@@ -39,7 +39,7 @@ Enviar notificações aos usuários sobre novas despesas, alterações na divis�
 
 <!-- [Descrição da arquitetura das APIs, incluindo os componentes e suas interações.] -->
 
-A API de gestão de despesas é desenvolvida em C#, ASP.NET Core e segue uma arquitetura monolítica. A arquitetura inclui componentes para autenticação, manipulação de dados e acesso ao banco de dados.
+A API segue uma arquitetura monolítica. A arquitetura inclui componentes para autenticação, manipulação de dados e acesso ao banco de dados.
 
 ![Arquitetura API](img/ArquiteturaAPI.jpg)
 
@@ -90,9 +90,16 @@ Entidades:<br/>
 
 ## Tecnologias Utilizadas
 
-Existem muitas tecnologias diferentes que podem ser usadas para desenvolver APIs Web. A tecnologia certa para o seu projeto dependerá dos seus objetivos, dos seus clientes e dos recursos que a API deve fornecer.
+<!-- Existem muitas tecnologias diferentes que podem ser usadas para desenvolver APIs Web. A tecnologia certa para o seu projeto dependerá dos seus objetivos, dos seus clientes e dos recursos que a API deve fornecer.
 
-[Lista das tecnologias principais que serão utilizadas no projeto.]
+[Lista das tecnologias principais que serão utilizadas no projeto.] -->
+
+A API REST de gestão de despesas é desenvolvida na linguagem C# e o framework ASP.NET Core.
+
+IDE: Visual Studio
+Banco de dados: SQL Server
+Documentação da API: Swagger
+
 
 ## API Endpoints
 
