@@ -101,7 +101,7 @@ O diagrama abaixo ilustra a entrada e saída de dados entre os usuários na apli
 
 [Lista das tecnologias principais que serão utilizadas no projeto.] -->
 
-A API REST de gestão de despesas é desenvolvida na linguagem C# e o framework ASP.NET Core. <br/>
+A **API REST** de gestão de despesas é desenvolvida na linguagem **C#** e o framework **ASP.NET Core**. <br/>
 
 IDE: Visual Studio <br/>
 Banco de dados: SQL Server <br/>
