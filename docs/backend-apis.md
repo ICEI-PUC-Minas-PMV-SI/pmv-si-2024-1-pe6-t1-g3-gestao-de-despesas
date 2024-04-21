@@ -72,11 +72,11 @@ Entidades:<br/>
 |RF-002| Deve ser possível adicionar membros aos grupos.  | ALTA |
 |RF-003| Os criadores dos grupos têm a capacidade de editar as configurações do grupo. | ALTA |
 |RF-004| A aplicação deve garantir que apenas membros autorizados tenham acesso aos grupos de despesas.   | ALTA |
-|RF-006| Os próprietários devem ser capazes de registrar despesas, indicando o valor, a descrição e a data. | ALTA |
-|RF-007| Deve ser possível associar uma despesa a um grupo específico.  | ALTA |
-|RF-008| A aplicação deve calcular automaticamente como dividir as despesas entre os membros do grupo. | ALTA |
-|RF-009| Os usuários podem ajustar a distribuição das despesas de forma a ser feita igualmente.  | ALTA |
-|RF-011| Os usuários devem ser capazes de se cadastrar na aplicação. | MÉDIA |
+|RF-005| Os próprietários devem ser capazes de registrar despesas, indicando o valor, a descrição e a data. | ALTA |
+|RF-006| Deve ser possível associar uma despesa a um grupo específico.  | ALTA |
+|RF-007| A aplicação deve calcular automaticamente como dividir as despesas entre os membros do grupo. | ALTA |
+|RF-008| Os usuários podem ajustar a distribuição das despesas de forma a ser feita igualmente.  | ALTA |
+|RF-010| Os usuários devem ser capazes de se cadastrar na aplicação. | MÉDIA |
 
 
 ## Requisitos Não Funcionais
