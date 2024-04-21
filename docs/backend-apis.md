@@ -339,6 +339,109 @@ Responses
 Code 204 Description Sucess 
 ```
 
+### Endpoint 1 Groups  - Buscar Todos os Grupos
+- Método: {GET} /api/Groups<br/>
+- Retorna uma lista de grupos. <br/>
+- Parâmetros: sem parâmetros  <br/>
+ ```
+Responses 
+Code 200 Description Sucess 
+```
+### Endpoint 1 Group -Criar Grupos
+- Método: {POST} /api/Groups <br/>
+- Cria um Grupo.  <br/>
+- Parâmetros: sem parâmetros <br/>
+- Corpo da solicitação: objeto JSON  <br/>
+```
+Request body 
+
+{ 
+"nameGroup": "Puc Final", 
+"ownerId": 1 
+} 
+```
+```
+Response body 
+
+{ 
+"id": 1, 
+"nameGroup": "Puc Final", 
+"totalExpense": 0, 
+"expenseShare": 0, 
+"expenses": [], 
+"owner": null, 
+"friends": [] 
+}
+```
+```
+Responses 
+Code 200 Description Sucess
+```
+### Endpoint 1 Group  - Buscar o Grupo conforme o ID
+- Método: {GET} /api/Groups/{id}
+Retorna um Grupo específico com o ID fornecido.  
+Parâmetros: id (inteiro) 
+```
+Response body 
+
+{
+ "id": 1,
+ "nameGroup": "Puc Final",
+ "totalExpense": 0,
+ "expenseShare": 0,
+ "expenses": [],
+ "owner": {
+ "id": 3,
+ "name": "Isabela_V1",
+ "email": "user@example.com",
+ "phoneNumber": "31992235948",
+ "amountToPay": 0,
+ "paymentMade": false,
+ "friends": null
+ },
+ "friends": []
+}
+```
+
+```
+Responses 
+Code 200 Description Sucess
+```
+### Endpoint 1 Group - Atualizar um Grupo existente com o ID fornecido.  
+- Método: {PUT} /api/Groups/{id}
+- Atualiza um Grupo existente com o ID fornecido.  
+- Parâmetros: id (inteiro)  
+- Corpo da solicitação: objeto JSON  
+
+```
+Request body 
+{
+"nameGroup": "PUC Teste Final"
+"OwnerId": 1,
+}
+```
+```
+Response body 
+curl -X 'PUT' \
+ 'https://localhost:7022/api/Groups/1' \
+ -H 'accept: */*' \
+ -H 'Content-Type: application/json' \
+ -d '{
+ "nameGroup": "Puc Teste Final",
+ "ownerId": 1
+}'
+Responses 
+Code 200 Description Sucess 
+```
+### Endpoint 1 Group - Excluir um Grupo existente com o ID fornecido.  
+- Método: {DELETE} /api/Groups/{id}
+- Exclui um Grupo existente com o ID fornecido.  
+- Parâmetros: id (inteiro)
+```
+Responses 
+Code 204 Description Sucess 
+```
+
 ## Considerações de Segurança
 
 <!-- [Discuta as considerações de segurança relevantes para a aplicação distribuída, como autenticação, autorização, proteção contra ataques, etc.] -->
