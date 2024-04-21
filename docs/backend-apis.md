@@ -48,7 +48,7 @@ A API de gestão de despesas é desenvolvida em C#, ASP.NET Core e segue uma arq
 ## Modelagem da Aplicação
 <!-- [Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.] -->
 
-Entidades Principais:<br/>
+Entidades:<br/>
 1 - Users: Informações cadastrais do usuário.<br/>
 2 - Friends: Usuários associados a um grupo de amigos.<br/>
 3 - Groups: Registro de dados relacionados ao grupo de despesas. <br/>
