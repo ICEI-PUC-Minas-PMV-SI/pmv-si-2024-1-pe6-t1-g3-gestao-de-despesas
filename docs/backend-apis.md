@@ -67,7 +67,7 @@ Entidades:<br/>
 [Liste os principais requisitos funcionais da aplicação.]
 
 |ID    | Descrição do Requisito  | Prioridade | Realizado |
-|------|-----------------------------------------|----|
+|------|-----------------------------------------|----|----|
 |RF-001| Os usuários podem criar grupos para gerenciar despesas. | ALTA | Sim |
 |RF-002| Deve ser possível adicionar membros aos grupos.  | ALTA | Sim |
 |RF-003| Os criadores dos grupos têm a capacidade de editar as configurações do grupo. | ALTA | Sim |
