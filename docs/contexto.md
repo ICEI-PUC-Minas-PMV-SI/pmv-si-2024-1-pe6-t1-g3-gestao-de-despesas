@@ -180,7 +180,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----|
 |RF-001| Os usuários podem criar grupos para gerenciar despesas. | ALTA | 
 |RF-002| Deve ser possível adicionar membros aos grupos.  | ALTA |
-|RF-003| Os criadores dos grupos têm a capacidade de editar as configurações do grupo. | ALTA | 
+|RF-003| Os proprietários dos grupos têm a capacidade de editar as configurações do grupo. | ALTA | 
 |RF-004| A aplicação deve garantir que apenas membros autorizados tenham acesso aos grupos de despesas.   | ALTA |
 |RF-006| Os usuários devem ser capazes de registrar despesas, indicando o valor, a descrição e a data. | ALTA | 
 |RF-007| Deve ser possível associar uma despesa a um grupo específico.  | ALTA |
