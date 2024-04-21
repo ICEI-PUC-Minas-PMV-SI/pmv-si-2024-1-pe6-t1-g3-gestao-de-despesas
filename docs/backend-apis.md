@@ -94,11 +94,11 @@ Entidades:<br/>
 
 [Lista das tecnologias principais que serão utilizadas no projeto.] -->
 
-A API REST de gestão de despesas é desenvolvida na linguagem C# e o framework ASP.NET Core.
+A API REST de gestão de despesas é desenvolvida na linguagem C# e o framework ASP.NET Core. <br/>
 
-IDE: Visual Studio
-Banco de dados: SQL Server
-Documentação da API: Swagger
+IDE: Visual Studio <br/>
+Banco de dados: SQL Server <br/>
+Documentação da API: Swagger <br/>
 
 
 ## API Endpoints
