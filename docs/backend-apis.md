@@ -41,10 +41,9 @@ Enviar notificações aos usuários sobre novas despesas, alterações na divis�
 
 A API de gestão de despesas é desenvolvida em C#, ASP.NET Core e segue uma arquitetura monolítica. A arquitetura inclui componentes para autenticação, manipulação de dados e acesso ao banco de dados.
 
-![Arquitetura API](docs/img/Arquitetura API.jpg)
+![Arquitetura API](docs/img/ArquiteturaAPI.jpg)
 
 
-docs/img/Arquitetura API.jpg
 
 ## Modelagem da Aplicação
 [Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]
