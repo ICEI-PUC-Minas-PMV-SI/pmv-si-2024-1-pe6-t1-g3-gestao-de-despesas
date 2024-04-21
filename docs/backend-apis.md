@@ -64,28 +64,29 @@ Entidades:<br/>
 
 ## Requisitos Funcionais
 
-[Liste os principais requisitos funcionais da aplicação.]
+<!-- [Liste os principais requisitos funcionais da aplicação.] -->
 
-|ID    | Descrição do Requisito  | Prioridade | Realizado |
-|------|-----------------------------------------|----|----|
-|RF-001| Os usuários podem criar grupos para gerenciar despesas. | ALTA | Sim |
-|RF-002| Deve ser possível adicionar membros aos grupos.  | ALTA | Sim |
-|RF-003| Os criadores dos grupos têm a capacidade de editar as configurações do grupo. | ALTA | Sim |
-|RF-004| A aplicação deve garantir que apenas membros autorizados tenham acesso aos grupos de despesas.   | ALTA | Sim |
-|RF-006| Os próprietários devem ser capazes de registrar despesas, indicando o valor, a descrição e a data. | ALTA | Sim |
-|RF-007| Deve ser possível associar uma despesa a um grupo específico.  | ALTA | Sim |
-|RF-008| A aplicação deve calcular automaticamente como dividir as despesas entre os membros do grupo. | ALTA | Sim |
-|RF-009| Os usuários podem ajustar a distribuição das despesas de forma a ser feita igualmente ou por porcentagem.   | ALTA | Não |
-|RF-010| Os usuários devem ter acesso a um histórico detalhado de todas as transações do grupo. | ALTA | Não |
-|RF-011| Os usuários devem ser capazes de se cadastrar na aplicação. | MÉDIA | Sim |
-|RF-012| A aplicação deve ser capaz de exibir resumos mensais ou semanais.  | BAIXA | Sim |
-|RF-013| Os membros do grupo devem receber notificações sobre despesas recentes, alterações na divisão de despesas. | BAIXA |  Pendente |
-|RF-014| A aplicação deve fornecer relatórios visuais sobre os gastos do grupo.  | BAIXA | Não |
+|ID    | Descrição do Requisito  | Prioridade |
+|------|-----------------------------------------|----|
+|RF-001| Os usuários podem criar grupos para gerenciar despesas. | ALTA |
+|RF-002| Deve ser possível adicionar membros aos grupos.  | ALTA |
+|RF-003| Os criadores dos grupos têm a capacidade de editar as configurações do grupo. | ALTA |
+|RF-004| A aplicação deve garantir que apenas membros autorizados tenham acesso aos grupos de despesas.   | ALTA |
+|RF-006| Os próprietários devem ser capazes de registrar despesas, indicando o valor, a descrição e a data. | ALTA |
+|RF-007| Deve ser possível associar uma despesa a um grupo específico.  | ALTA |
+|RF-008| A aplicação deve calcular automaticamente como dividir as despesas entre os membros do grupo. | ALTA |
+|RF-009| Os usuários podem ajustar a distribuição das despesas de forma a ser feita igualmente.  | ALTA |
+|RF-011| Os usuários devem ser capazes de se cadastrar na aplicação. | MÉDIA |
 
 
 ## Requisitos Não Funcionais
 
-[Liste os principais requisitos não funcionais da aplicação, como desempenho, segurança, escalabilidade, etc.]
+<!--[Liste os principais requisitos não funcionais da aplicação, como desempenho, segurança, escalabilidade, etc.]-->
+
+|ID     | Descrição do Requisito  |Prioridade |
+|-------|-------------------------|----|
+|RNF-001| A aplicação deverá respeitar às restrições impostas pela LGPD. (SEGURANÇA)| ALTA |
+|RNF-002| A aplicação deve garantir a segurança dos dados do usuário. (SEGURANÇA) |  ALTA |
 
 ## Tecnologias Utilizadas
 
