@@ -626,4 +626,4 @@ Resultado Esperado: Exibir mensagem “Cadastro realizado”
 
 <https://codificar.com.br/requisitos-funcionais-nao-funcionais/> <br>
 <https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/> <br>
-MIRO (2024). Diagrama de fluxo de dados. Miro. Disponível em: <https://miro.com/pt/diagrama/o-que-e-diagrama-fluxo-dados/> <br>
+<https://miro.com/pt/diagrama/o-que-e-diagrama-fluxo-dados/> <br>
