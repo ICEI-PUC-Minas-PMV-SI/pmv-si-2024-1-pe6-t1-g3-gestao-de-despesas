@@ -185,7 +185,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-006| Os usuários devem ser capazes de registrar despesas, indicando o valor, a descrição e a data. | ALTA | 
 |RF-007| Deve ser possível associar uma despesa a um grupo específico.  | ALTA |
 |RF-008| A aplicação deve calcular automaticamente como dividir as despesas entre os membros do grupo. | ALTA | 
-|RF-009| Os usuários podem ajustar a distribuição das despesas de forma a ser feita igualmente ou por porcentagem.   | ALTA |
+|RF-009| Os usuários podem ajustar a distribuição das despesas de forma a ser feita igualmente.   | ALTA |
 |RF-010| Os usuários devem ter acesso a um histórico detalhado de todas as transações do grupo. | ALTA | 
 |RF-011| Os usuários devem ser capazes de se cadastrar na aplicação. | MÉDIA |
 |RF-012| A aplicação deve ser capaz de exibir resumos mensais ou semanais.  | BAIXA |
