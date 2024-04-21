@@ -138,8 +138,11 @@ Documentação da API: Swagger <br/>
 
 ## Considerações de Segurança
 
-[Discuta as considerações de segurança relevantes para a aplicação distribuída, como autenticação, autorização, proteção contra ataques, etc.]
+<!-- [Discuta as considerações de segurança relevantes para a aplicação distribuída, como autenticação, autorização, proteção contra ataques, etc.] -->
 
+- Autenticação e autorização da API através do token JWT. (pendente de ajustes) <br/>
+- Senhas: Armazenamento de senha via banco de dados. <br/>
+  
 ## Implantação
 
 [Instruções para implantar a aplicação distribuída em um ambiente de produção.]
