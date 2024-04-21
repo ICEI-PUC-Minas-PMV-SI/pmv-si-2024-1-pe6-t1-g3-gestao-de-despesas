@@ -525,11 +525,11 @@ Com o objetivo de garantir o funcionamento correto da API, é importante realiza
 Desse modo, foram definidos os seguintes testes: 
 
 **Caso de teste: 1** <br>
-Resumo: Criar Despesas 
-Requisito: RF-001 
-Prioridade: Alta 
-Pré-condição: Estar cadastrado e logado no sistema 
-Passos: 
+Resumo: Criar Despesas <br>
+Requisito: RF-001 <br>
+Prioridade: Alta <br>
+Pré-condição: Estar cadastrado e logado no sistema <br>
+Passos: <br>
 
 1. Entrar no grupo de despesas 
 2. Cadastrar a despesa, com a descrição e valor
@@ -538,11 +538,11 @@ Passos:
 Resultado Esperado: Exibir mensagem “Despesa Cadastrada”
 
 **Caso de teste: 2** <br>
-Resumo: Adicionar membros aos grupos. 
-Requisito: RF-002 
-Prioridade: Alta 
-Pré-condição: Estar cadastrado, logado no sistema, proprietário do grupo, membro estar cadastrado no sistema.  
-Passos:
+Resumo: Adicionar membros aos grupos. <br>
+Requisito: RF-002 <br>
+Prioridade: Alta <br>
+Pré-condição: Estar cadastrado, logado no sistema, proprietário do grupo, membro estar cadastrado no sistema.  <br>
+Passos: <br>
 
 1. Entrar no grupo de despesas 
 2. Adicionar membro
@@ -551,11 +551,11 @@ Passos:
 Resultado Esperado: Exibir mensagem “Membro Adicionado ao Grupo de Despesa”
 
 **Caso de teste: 3** <br>
-Resumo: Editar as configurações do grupo. 
-Requisito: RF-003 
-Prioridade: Alta 
-Pré-condição: Estar cadastrado, logado no sistema, ser proprietário do grupo 
-Passos:
+Resumo: Editar as configurações do grupo. <br>
+Requisito: RF-003 <br>
+Prioridade: Alta <br>
+Pré-condição: Estar cadastrado, logado no sistema, ser proprietário do grupo <br>
+Passos: <br>
 
 1. Localizar e selecionar o grupo que você possui e deseja editar. 
 2. Na página de detalhes do grupo, localize e clique no botão ou link para 'Configurações' ou 'Editar Grupo'. 
@@ -565,11 +565,11 @@ Passos:
 Resultado Esperado: Exibir mensagem “Configurações Editadas com Sucesso”
 
 **Caso de teste: 4** <br>
-Resumo: Acessos aos grupos 
-Requisito: RF-004 
-Prioridade: Alta 
-Pré-condição: A aplicação deve garantir que apenas membros autorizados tenham acesso aos grupos de despesas 
-Passos: 
+Resumo: Acessos aos grupos <br>
+Requisito: RF-004 <br>
+Prioridade: Alta <br>
+Pré-condição: A aplicação deve garantir que apenas membros autorizados tenham acesso aos grupos de despesas <br>
+Passos: <br>
 
 1. Estar logado na aplicação 
 2. Escolher grupo do qual não tem autorização para acesso 
@@ -579,11 +579,11 @@ Passos:
 Resultado Esperado: Exibir mensagem “Você não tem autorização para acessar o grupo”
 
 **Caso de teste: 5** <br>
-Resumo: Registrar despesa ao grupo. 
-Requisito: RF-005 
-Prioridade: Alta 
-Pré-condição: Ser membro do grupo. 
-Passos: 
+Resumo: Registrar despesa ao grupo. <br>
+Requisito: RF-005 <br>
+Prioridade: Alta <br>
+Pré-condição: Ser membro do grupo. <br>
+Passos: <br>
 
 1. Estar logado na aplicação 
 2. Acessar o grupo de despesas 
@@ -596,11 +596,11 @@ Passos:
 Resultado Esperado: Exibir mensagem “Despesa inserida com sucesso” 
 
 **Caso de teste: 6** <br>
-Resumo: Divisão das despesas 
-Requisito: RF-006 
-Prioridade: Alta 
-Pré-condição: Ser membro do grupo, ter registro de despesas 
-Passos: 
+Resumo: Divisão das despesas <br>
+Requisito: RF-006 <br>
+Prioridade: Alta <br>
+Pré-condição: Ser membro do grupo, ter registro de despesas <br>
+Passos: <br>
 
 1. Acessar grupo 
 2. Ser membro do grupo 
@@ -611,11 +611,11 @@ Passos:
 Resultado Esperado: Exibir mensagem “O valor a ser pago é de R$xx,xx por cada membro do grupo"
 
 **Caso de teste: 7** <br>
-Resumo: Cadastrar Usuároo 
-Requisito: RF-007 
-Prioridade: Média 
-Pré-condição: Entrar no Sistema. 
-Passos: 
+Resumo: Cadastrar Usuároo <br>
+Requisito: RF-007 <br>
+Prioridade: Média <br>
+Pré-condição: Entrar no Sistema. <br>
+Passos: <br>
 
 1. Preencher com os dados do usuário 
 2. Salvar registro.   
@@ -624,4 +624,6 @@ Resultado Esperado: Exibir mensagem “Cadastro realizado”
 
 # Referências
 
-Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
+<https://codificar.com.br/requisitos-funcionais-nao-funcionais/>
+<https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/>
+MIRO (2024). Diagrama de fluxo de dados. Miro. Disponível em: <https://miro.com/pt/diagrama/o-que-e-diagrama-fluxo-dados/>
