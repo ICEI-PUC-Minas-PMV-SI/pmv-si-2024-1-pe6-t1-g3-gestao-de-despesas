@@ -362,7 +362,7 @@ Com o objetivo de garantir o funcionamento correto da API, é importante realiza
 
 Desse modo, foram definidos os seguintes testes: 
 
-** Caso de teste: 1 ** <br>
+**Caso de teste: 1** <br>
 Resumo: Criar Despesas 
 Requisito: RF-001 
 Prioridade: Alta 
@@ -375,7 +375,7 @@ Passos:
 
 Resultado Esperado: Exibir mensagem “Despesa Cadastrada”
 
-** Caso de teste: 2 ** <br>
+**Caso de teste: 2** <br>
 Resumo: Adicionar membros aos grupos. 
 Requisito: RF-002 
 Prioridade: Alta 
@@ -388,7 +388,7 @@ Passos:
    
 Resultado Esperado: Exibir mensagem “Membro Adicionado ao Grupo de Despesa”
 
-** Caso de teste: 3 ** <br>
+**Caso de teste: 3** <br>
 Resumo: Editar as configurações do grupo. 
 Requisito: RF-003 
 Prioridade: Alta 
@@ -402,7 +402,7 @@ Passos:
 
 Resultado Esperado: Exibir mensagem “Configurações Editadas com Sucesso”
 
-** Caso de teste: 4 ** <br>
+**Caso de teste: 4** <br>
 Resumo: Acessos aos grupos 
 Requisito: RF-004 
 Prioridade: Alta 
@@ -416,7 +416,7 @@ Passos:
 
 Resultado Esperado: Exibir mensagem “Você não tem autorização para acessar o grupo”
 
-** Caso de teste: 5 ** <br>
+**Caso de teste: 5** <br>
 Resumo: Registrar despesa ao grupo. 
 Requisito: RF-005 
 Prioridade: Alta 
@@ -433,7 +433,7 @@ Passos:
 
 Resultado Esperado: Exibir mensagem “Despesa inserida com sucesso” 
 
-** Caso de teste: 6 ** <br>
+**Caso de teste: 6** <br>
 Resumo: Divisão das despesas 
 Requisito: RF-006 
 Prioridade: Alta 
@@ -448,7 +448,7 @@ Passos:
 
 Resultado Esperado: Exibir mensagem “O valor a ser pago é de R$xx,xx por cada membro do grupo"
 
-** Caso de teste: 7 ** <br>
+**Caso de teste: 7** <br>
 Resumo: Cadastrar Usuároo 
 Requisito: RF-007 
 Prioridade: Média 
