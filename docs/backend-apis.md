@@ -111,25 +111,6 @@ Documentação da API: Swagger <br/>
 [Liste os principais endpoints da API, incluindo as operações disponíveis, os parâmetros esperados e as respostas retornadas.]
 
 ### Endpoint 1
-Método: {GET} /api/Users  <br/>
-Retorna uma lista de usuários <br/>
-Parâmetros: sem parâmetros  <br/>
-[  <br/>
-   {  <br/>
-     "id": 1  <br/>
-     "name": "Isabela_V1,  <br/>
-     "email": "usermple.com",  <br/>
-     "phoneNumber": "31992235948",  <br/>
-     "paymentMade": false,  <br/>
-     "amountToPay": 0,  <br/>
-     "groups": [],  <br/>
-     "friends": []  <br/>
-   }  <br/>
- ]  <br/>
- 
-Responses 
-Code 200 Description Sucess 
-
 - Resposta:
   - Sucesso (200 OK)
     ```
@@ -149,7 +130,124 @@ Code 200 Description Sucess
       }
     }
     ```
+### Endpoint 1 User - Buscar Todos Usuário
+- Método: {GET} /api/Users  <br/>
+- Retorna uma lista de usuários <br/>
+- Parâmetros: sem parâmetros  <br/>
+ ```
+[  
+   { 
+     "id": 1  
+     "name": "Isabela_V1,
+     "email": "usermple.com",  
+     "phoneNumber": "31992235948",  
+     "paymentMade": false, 
+     "amountToPay": 0, 
+     "groups": [], 
+     "friends": []  
+   }  
+ ]  
+ ```
+```
+Responses 
+Code 200 Description Sucess 
+```
+### Endpoint 1 User -Criar Usuários
+- Método: {POST} /api/Users 
+- Cria um usuário.  <br/>
+- Parâmetros: sem parâmetros <br/>
+- Corpo da solicitação: objeto JSON  <br/>
+```
+Request body 
 
+{ 
+   "name": "Isabela_V1", 
+   "email": "user@example.com", 
+   "password": "123", 
+   "phoneNumber": "31992235948" 
+ }  
+```
+```
+Response body 
+
+{ 
+   "name": "Isabela_V1", 
+   "email": "user@example.com", 
+   "password": "123", 
+   "phoneNumber": "992235948" 
+ } 
+```
+```
+Responses 
+Code 200 Description Sucess
+```
+### Endpoint 1 User  - Buscar o Usuário conforme o ID
+Retorna um usuário específico com o ID fornecido.  
+Parâmetros: id (inteiro) 
+```
+Response body 
+
+{   
+"id": 1,   
+"name": "Isabela_V1",   
+"email": "user@example.com",
+"phoneNumber": "992235948",   
+"paymentMade": false,   
+"amountToPay": 0,   
+"groups": [], 
+"friends": [] 
+}
+```
+
+```
+Responses 
+Code 200 Description Sucess
+```
+### Endpoint 1 User - Atualizar um usuário existente com o ID fornecido.  
+- Atualiza um usuário existente com o ID fornecido.  
+- Parâmetros: id (inteiro)  
+- Corpo da solicitação: objeto JSON  
+
+```
+Request body 
+{ 
+   "name": "Isabela_V1, 
+   "email": "user@example.com", 
+   "password": "123", 
+   "phoneNumber": "31992235947" 
+ }
+```
+```
+Response body 
+{ 
+   "id": 0, 
+   "name": "Isabela_V1", 
+   "email": "user@example.com", 
+   "phoneNumber": "992235947", 
+   "paymentMade": false, 
+   "amountToPay": 0, 
+   "groups": [], 
+   "friends": null 
+ } 
+
+Responses 
+Code 200 Description Sucess 
+```
+### Endpoint 1 User - Excluir um usuário existente com o ID fornecido.  
+- Exclui um usuário existente com o ID fornecido.  
+- Parâmetros: id (inteiro)
+```
+curl -X 'DELETE' \ 
+   'https://localhost:7022/api/Users/1' \ 
+   -H 'accept: */*'	 
+
+Request URL 
+https://localhost:7022/api/Users/1 
+```
+```
+Responses 
+Code 204 Description Sucess 
+```
 
 ## Considerações de Segurança
 
