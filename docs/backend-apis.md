@@ -8,9 +8,29 @@ Aqui estão algumas etapas importantes que devem ser consideradas no planejament
 
 ## Objetivos da API
 
-O primeiro passo é definir os objetivos da sua API. O que você espera alcançar com ela? Você quer que ela seja usada por clientes externos ou apenas por aplicações internas? Quais são os recursos que a API deve fornecer?
+<!-- O primeiro passo é definir os objetivos da sua API. O que você espera alcançar com ela? Você quer que ela seja usada por clientes externos ou apenas por aplicações internas? Quais são os recursos que a API deve fornecer?
 
-[Inclua os objetivos da sua api.]
+[Inclua os objetivos da sua api.] -->
+
+A API busca fornecer recursos para execução das regras definidas para funcionamento da aplicação, além de outros recursos como autenticação e autorização de usuários. Seguem abaixo alguns dos principais objetivos:
+
+**Cadastro de despesas:** <br/>
+Permitir que os usuários criem novas despesas, especificando detalhes como o valor, a descrição e a data da despesa.
+Associar cada despesa a um grupo específico para facilitar a divisão entre os membros.<br/>
+**Divisão de despesas:** <br/>
+Calcular automaticamente a divisão das despesas entre os membros do grupo.
+Permitir que os usuários visualizem quanto cada membro deve pagar ou receber em relação a uma despesa específica.<br/>
+**Controle de despesas pagas:** <br/>
+Registrar quando um usuário paga uma despesa.
+Atualizar automaticamente o saldo de cada usuário no grupo com base nas despesas pagas e na divisão das despesas.<br/>
+**Gerenciamento de usuários e grupos:** <br/>
+Permitir a criação e a gestão de grupos de usuários.
+Facilitar a adição e a remoção de membros de um grupo pelo proprietário.<br/>
+**Recursos de autenticação e autorização:** <br/>
+Garantir que apenas usuários autorizados possam acessar e manipular dados de despesas e grupos.
+Implementar autenticação para proteger as informações sensíveis dos usuários.<br/>
+**Notificações e lembretes:** <br/>
+Enviar notificações aos usuários sobre novas despesas, alterações na divisão das despesas ou despesas pendentes de pagamento.<br/>
 
 
 ## Arquitetura
