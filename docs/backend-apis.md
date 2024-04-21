@@ -155,13 +155,107 @@ Documentação da API: Swagger <br/>
 
 ## Testes
 
-[Descreva a estratégia de teste, incluindo os tipos de teste a serem realizados (unitários, integração, carga, etc.) e as ferramentas a serem utilizadas.]
+Com o objetivo de garantir o funcionamento correto da API, é importante realizar testes para identificar possíveis erros e corrigi-los antes que afetem negativamente a experiência dos usuários. 
 
-1. Crie casos de teste para cobrir todos os requisitos funcionais e não funcionais da aplicação.
-2. Implemente testes unitários para testar unidades individuais de código, como funções e classes.
-3. Realize testes de integração para verificar a interação correta entre os componentes da aplicação.
-4. Execute testes de carga para avaliar o desempenho da aplicação sob carga significativa.
-5. Utilize ferramentas de teste adequadas, como frameworks de teste e ferramentas de automação de teste, para agilizar o processo de teste.
+Desse modo, foram definidos os seguintes testes: 
+
+## Caso de teste: 1 
+Resumo: Criar Despesas 
+Requisito: RF-001 
+Prioridade: Alta 
+Pré-condição: Estar cadastrado e logado no sistema 
+Passos: 
+
+1. Entrar no grupo de despesas 
+2. Cadastrar a despesa, com a descrição e valor
+3. Salvar Despesa
+
+Resultado Esperado: Exibir mensagem “Despesa Cadastrada”
+
+## Caso de teste: 2
+Resumo: Adicionar membros aos grupos. 
+Requisito: RF-002 
+Prioridade: Alta 
+Pré-condição: Estar cadastrado, logado no sistema, proprietário do grupo, membro estar cadastrado no sistema.  
+Passos:
+
+1. Entrar no grupo de despesas 
+2. Adicionar membro
+3. Salvar Membro
+   
+Resultado Esperado: Exibir mensagem “Membro Adicionado ao Grupo de Despesa”
+
+## Caso de teste: 3
+Resumo: Editar as configurações do grupo. 
+Requisito: RF-003 
+Prioridade: Alta 
+Pré-condição: Estar cadastrado, logado no sistema, ser proprietário do grupo 
+Passos:
+
+1. Localizar e selecionar o grupo que você possui e deseja editar. 
+2. Na página de detalhes do grupo, localize e clique no botão ou link para 'Configurações' ou 'Editar Grupo'. 
+3. Altere as configurações desejadas do grupo, como nome do grupo.  
+4. Salvar
+
+Resultado Esperado: Exibir mensagem “Configurações Editadas com Sucesso”
+
+## Caso de teste: 4
+Resumo: Acessos aos grupos 
+Requisito: RF-004 
+Prioridade: Alta 
+Pré-condição: A aplicação deve garantir que apenas membros autorizados tenham acesso aos grupos de despesas 
+Passos: 
+
+1. Estar logado na aplicação 
+2. Escolher grupo do qual não tem autorização para acesso 
+3. Tentar acesso ao grupo do qual não tem autorização  
+4. Checar se todas as transações e informações dentro do grupo de despesas estão ocultas para usuários não autorizados.
+
+Resultado Esperado: Exibir mensagem “Você não tem autorização para acessar o grupo”
+
+## Caso de teste: 5
+Resumo: Registrar despesa ao grupo. 
+Requisito: RF-005 
+Prioridade: Alta 
+Pré-condição: Ser membro do grupo. 
+Passos: 
+
+1. Estar logado na aplicação 
+2. Acessar o grupo de despesas 
+3. Registrar nome da despesa 
+4. Registrar valor da despesa 
+5. Registrar data da despesa 
+6. Registrar descrição da despesa 
+7. Salvar
+
+Resultado Esperado: Exibir mensagem “Despesa inserida com sucesso” 
+
+## Caso de teste: 6
+Resumo: Divisão das despesas 
+Requisito: RF-006 
+Prioridade: Alta 
+Pré-condição: Ser membro do grupo, ter registro de despesas 
+Passos: 
+
+1. Acessar grupo 
+2. Ser membro do grupo 
+3. Registo de despesas no grupo 
+4. Divisão de despesas por todos os membros do grupo 
+5. Indicar o valor a ser pago individualmente
+
+Resultado Esperado: Exibir mensagem “O valor a ser pago é de R$xx,xx por cada membro do grupo"
+
+## Caso de teste: 7
+Resumo: Cadastrar Usuároo 
+Requisito: RF-007 
+Prioridade: Média 
+Pré-condição: Entrar no Sistema. 
+Passos: 
+
+1. Preencher com os dados do usuário 
+2. Salvar registro.   
+
+Resultado Esperado: Exibir mensagem “Cadastro realizado”
 
 # Referências
 
