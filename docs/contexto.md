@@ -182,15 +182,15 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-002| Deve ser possível adicionar membros aos grupos.  | ALTA |
 |RF-003| Os proprietários dos grupos têm a capacidade de editar as configurações do grupo. | ALTA | 
 |RF-004| A aplicação deve garantir que apenas membros autorizados tenham acesso aos grupos de despesas.   | ALTA |
-|RF-006| Os usuários devem ser capazes de registrar despesas, indicando o valor, a descrição e a data. | ALTA | 
-|RF-007| Deve ser possível associar uma despesa a um grupo específico.  | ALTA |
-|RF-008| A aplicação deve calcular automaticamente como dividir as despesas entre os membros do grupo. | ALTA | 
-|RF-009| Os usuários podem ajustar a distribuição das despesas de forma a ser feita igualmente.   | ALTA |
-|RF-010| Os usuários devem ter acesso a um histórico detalhado de todas as transações do grupo. | ALTA | 
-|RF-011| Os usuários devem ser capazes de se cadastrar na aplicação. | MÉDIA |
-|RF-012| A aplicação deve ser capaz de exibir resumos mensais ou semanais.  | BAIXA |
-|RF-013| Os membros do grupo devem receber notificações sobre despesas recentes, alterações na divisão de despesas. | BAIXA | 
-|RF-014| A aplicação deve fornecer relatórios visuais sobre os gastos do grupo.  | BAIXA |
+|RF-005| Os usuários devem ser capazes de registrar despesas, indicando o valor, a descrição e a data. | ALTA | 
+|RF-006| Deve ser possível associar uma despesa a um grupo específico.  | ALTA |
+|RF-007| A aplicação deve calcular automaticamente como dividir as despesas entre os membros do grupo. | ALTA | 
+|RF-008| Os usuários podem ajustar a distribuição das despesas de forma a ser feita igualmente.   | ALTA |
+|RF-009| Os usuários devem ter acesso a um histórico detalhado de todas as transações do grupo. | ALTA | 
+|RF-010| Os usuários devem ser capazes de se cadastrar na aplicação. | MÉDIA |
+|RF-011| A aplicação deve ser capaz de exibir resumos mensais ou semanais.  | BAIXA |
+|RF-012| Os membros do grupo devem receber notificações sobre despesas recentes, alterações na divisão de despesas. | BAIXA | 
+|RF-013| A aplicação deve fornecer relatórios visuais sobre os gastos do grupo.  | BAIXA |
 
 
 ### Requisitos não Funcionais
