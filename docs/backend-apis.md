@@ -182,6 +182,7 @@ Responses
 Code 200 Description Sucess
 ```
 ### Endpoint 1 User  - Buscar o Usuário conforme o ID
+- Método: {GET} /api/Users/{id} 
 Retorna um usuário específico com o ID fornecido.  
 Parâmetros: id (inteiro) 
 ```
@@ -204,6 +205,7 @@ Responses
 Code 200 Description Sucess
 ```
 ### Endpoint 1 User - Atualizar um usuário existente com o ID fornecido.  
+- Método: {PUT} /api/Users/{id} 
 - Atualiza um usuário existente com o ID fornecido.  
 - Parâmetros: id (inteiro)  
 - Corpo da solicitação: objeto JSON  
@@ -233,7 +235,8 @@ Response body
 Responses 
 Code 200 Description Sucess 
 ```
-### Endpoint 1 User - Excluir um usuário existente com o ID fornecido.  
+### Endpoint 1 User - Excluir um usuário existente com o ID fornecido. 
+- Método: {DELETE} /api/Users/{id} 
 - Exclui um usuário existente com o ID fornecido.  
 - Parâmetros: id (inteiro)
 ```
@@ -244,6 +247,93 @@ curl -X 'DELETE' \
 Request URL 
 https://localhost:7022/api/Users/1 
 ```
+```
+Responses 
+Code 204 Description Sucess 
+```
+
+### Endpoint 2 Expense - Buscar Todas Despesas
+- Método: {GET} /api/Users  <br/>
+- Retorna uma lista de despesas <br/>
+- Parâmetros: sem parâmetros  <br/>
+
+ ```
+{ 
+  "id": 1, 
+  "valueExpense": 4000, 
+  "date": "2024-04-21T20:28:03.019Z", 
+  "description": "hotel", 
+  "groupId": 1, 
+  "payments": [] 
+}
+ ```
+```
+Responses 
+Code 200 Description Sucess 
+```
+
+### Endpoint 2 Expense - Criar Despesas
+- Método: {POST} /api/Expenses 
+- Cria uma despesa  <br/>
+- Parâmetros: sem parâmetros  <br/>
+- Corpo da solicitação: objeto JSON <br/>
+
+```
+Requets body 
+{ 
+  "id": 1, 
+  "valueExpense": 4000, 
+  "date": "2024-04-21T20:28:03.019Z", 
+  "description": "hotel", 
+  "groupId": 1, 
+  "payments": [] 
+}
+```
+
+```
+Response  
+Code 200  Description Success
+```
+
+### Endpoint 2 Expense - Retornar uma despesa específica
+- Método: {GET} /api/Expenses/{id}
+- Retorna uma despesa específica com o ID fornecido.
+- Parâmetros: id (inteiro)
+
+```
+Response Body  
+{ 
+  "id": 1, 
+  "valueExpense": 4000, 
+  "date": "2024-04-21T20:28:03.019", 
+  "description": "hotel", 
+  "groupId": 1, 
+  "payments": [] 
+} 
+```
+```
+Response   
+Code 200 Description Success
+```
+### Endpoint 2 Expense -Atualizar uma despesa específica
+- Método: {PUT} /api/Expenses/{id}
+- Atualiza uma despesa existente com o ID fornecido.
+- Parâmetros: id (inteiro)
+- Corpo da solicitação: objeto JSON
+
+```
+{ 
+  "valueExpense": 3000, 
+  "date": "2024-04-21T20:35:06.015Z",
+  "description": "hotel2", 
+  "groupId": 1 
+} 
+```
+### Endpoint 2 Expense - Excluir uma despesa específica
+- Método: {DELETE} /api/Expenses/{id}
+- Exclui uma despesa existente com o ID fornecido.  
+- Parâmetros: id (inteiro)
+
 ```
 Responses 
 Code 204 Description Sucess 
@@ -272,7 +362,7 @@ Com o objetivo de garantir o funcionamento correto da API, é importante realiza
 
 Desse modo, foram definidos os seguintes testes: 
 
-## Caso de teste: 1 
+** Caso de teste: 1 ** <br>
 Resumo: Criar Despesas 
 Requisito: RF-001 
 Prioridade: Alta 
@@ -285,7 +375,7 @@ Passos:
 
 Resultado Esperado: Exibir mensagem “Despesa Cadastrada”
 
-## Caso de teste: 2
+** Caso de teste: 2 ** <br>
 Resumo: Adicionar membros aos grupos. 
 Requisito: RF-002 
 Prioridade: Alta 
@@ -298,7 +388,7 @@ Passos:
    
 Resultado Esperado: Exibir mensagem “Membro Adicionado ao Grupo de Despesa”
 
-## Caso de teste: 3
+** Caso de teste: 3 ** <br>
 Resumo: Editar as configurações do grupo. 
 Requisito: RF-003 
 Prioridade: Alta 
@@ -312,7 +402,7 @@ Passos:
 
 Resultado Esperado: Exibir mensagem “Configurações Editadas com Sucesso”
 
-## Caso de teste: 4
+** Caso de teste: 4 ** <br>
 Resumo: Acessos aos grupos 
 Requisito: RF-004 
 Prioridade: Alta 
@@ -326,7 +416,7 @@ Passos:
 
 Resultado Esperado: Exibir mensagem “Você não tem autorização para acessar o grupo”
 
-## Caso de teste: 5
+** Caso de teste: 5 ** <br>
 Resumo: Registrar despesa ao grupo. 
 Requisito: RF-005 
 Prioridade: Alta 
@@ -343,7 +433,7 @@ Passos:
 
 Resultado Esperado: Exibir mensagem “Despesa inserida com sucesso” 
 
-## Caso de teste: 6
+** Caso de teste: 6 ** <br>
 Resumo: Divisão das despesas 
 Requisito: RF-006 
 Prioridade: Alta 
@@ -358,7 +448,7 @@ Passos:
 
 Resultado Esperado: Exibir mensagem “O valor a ser pago é de R$xx,xx por cada membro do grupo"
 
-## Caso de teste: 7
+** Caso de teste: 7 ** <br>
 Resumo: Cadastrar Usuároo 
 Requisito: RF-007 
 Prioridade: Média 
