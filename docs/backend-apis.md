@@ -111,10 +111,25 @@ Documentação da API: Swagger <br/>
 [Liste os principais endpoints da API, incluindo as operações disponíveis, os parâmetros esperados e as respostas retornadas.]
 
 ### Endpoint 1
-- Método: GET
-- URL: /endpoint1
-- Parâmetros:
-  - param1: [descrição]
+Método: {GET} /api/Users 
+Retorna uma lista de usuários
+Parâmetros: sem parâmetros 
+[ 
+   { 
+     "id": 1 
+     "name": "Isabela_V1, 
+     "email": "usermple.com", 
+     "phoneNumber": "31992235948", 
+     "paymentMade": false, 
+     "amountToPay": 0, 
+     "groups": [], 
+     "friends": [] 
+   } 
+ ] 
+ 
+Responses 
+Code 200 Description Sucess 
+
 - Resposta:
   - Sucesso (200 OK)
     ```
