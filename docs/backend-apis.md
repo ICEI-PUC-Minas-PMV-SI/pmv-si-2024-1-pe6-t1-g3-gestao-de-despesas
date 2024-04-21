@@ -441,6 +441,65 @@ Code 200 Description Sucess
 Responses 
 Code 204 Description Sucess 
 ```
+### Endpoint 1 Payments  - Buscar Todos os Pagamentos
+- Método: {GET} /api/Payments<br/>
+- Retorna uma lista de Pagamentos. <br/>
+- Parâmetros: sem parâmetros  <br/>
+ ```
+Responses 
+Code 200 Description Sucess 
+```
+### Endpoint 1 Payment -Criar Pagamentos
+- Método: {POST} /api/Payments <br/>
+- Cria um Pagamento.  <br/>
+- Parâmetros: sem parâmetros <br/>
+- Corpo da solicitação: objeto JSON  <br/>
+```
+Request body 
+
+{
+ "expenseId": 101,
+"paymentStatus": true
+}
+```
+```
+Responses 
+Code 200 Description Sucess
+```
+### Endpoint 1 Payment  - Buscar o Pagamento conforme o ID
+- Método: {GET} /api/Payments/{id}
+- Retorna um Pagamento específico com o ID fornecido.  
+- Parâmetros: id (inteiro) 
+```
+Responses 
+Code 200 Description Sucess
+```
+### Endpoint 1 Payment - Atualizar um Pagamento existente com o ID fornecido.  
+- Método: {PUT} /api/Payments/{id}
+- Atualiza um Pagamento existente com o ID fornecido.  
+- Parâmetros: id (inteiro)  
+- Corpo da solicitação: objeto JSON  
+
+```
+Request body 
+{
+ "expenseId": 101,
+"paymentStatus": true
+}
+```
+```
+Responses 
+Code 200 Description Sucess
+```
+
+### Endpoint 1 Payment - Excluir um Pagamento existente com o ID fornecido.  
+- Método: {DELETE} /api/Payments/{id}
+- Exclui um Pagamento existente com o ID fornecido.  
+- Parâmetros: id (inteiro)
+```
+Responses 
+Code 204 Description Sucess
+```
 
 ## Considerações de Segurança
 
