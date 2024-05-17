@@ -1,6 +1,7 @@
 # Front-end Web
-
 [Inclua uma breve descrição do projeto e seus objetivos.]
+
+
 
 ## Tecnologias Utilizadas
 [Lista das tecnologias principais que serão utilizadas no projeto.]
@@ -11,6 +12,15 @@
 
 ## Modelagem da Aplicação
 [Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]
+
+Entidades:
+1 - Users: Informações cadastrais do usuário.
+2 - Friends: Usuários associados a um grupo de amigos.
+3 - Groups: Registro de dados relacionados ao grupo de despesas.
+4 - Expenses: Registro de despesas e valores associados ao grupo.
+5 - Payments: Registro de pagamentos por integrante do grupo.
+
+
 
 ## Projeto da Interface Web
 [Descreva o projeto da interface Web da aplicação, incluindo o design visual, layout das páginas, interações do usuário e outros aspectos relevantes.]
