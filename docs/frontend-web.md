@@ -1,7 +1,7 @@
 # Front-end Web
-[Inclua uma breve descrição do projeto e seus objetivos.]
+<!-- [Inclua uma breve descrição do projeto e seus objetivos.]
 
-<!-- O projeto visa simplificar e facilitar a divisão de despesas entre amigos, colegas de quarto, familiares e grupos em geral. Os usuários podem rastrear facilmente quem pagou determinada despesa e quem deve a quem, eliminando a necessidade de realizar cálculos complexos. <br/>
+O projeto visa simplificar e facilitar a divisão de despesas entre amigos, colegas de quarto, familiares e grupos em geral. Os usuários podem rastrear facilmente quem pagou determinada despesa e quem deve a quem, eliminando a necessidade de realizar cálculos complexos. <br/>
 
 A aplicação permite que os usuários criem grupos para compartilhar despesas, como viagens, refeições, aluguel e outras despesas compartilhadas. Além disso,o cálculo é feito automaticamente quanto cada pessoa deve, com base nas despesas registradas e quantidade de pessoas integrantes no grupo. <br/>
 
