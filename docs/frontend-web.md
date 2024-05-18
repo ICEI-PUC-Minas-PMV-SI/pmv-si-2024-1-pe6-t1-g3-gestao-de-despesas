@@ -141,13 +141,19 @@ Cada tela é projetada com foco na usabilidade, apresentando uma interface intui
 ### Wireframes
 <!-- [Inclua os wireframes das páginas principais da interface, mostrando a disposição dos elementos na página.] -->
 
-Abaixo temos a apresentação dos wireframes da aplicação Gestão de Despesas. Aqui, oferecemos um vislumbre do design e da estrutura da plataforma de gestão de despesas compartilhadas:
+Abaixo temos a apresentação dos wireframes da aplicação Gestão de Despesas. Aqui, oferecemos um vislumbre do design e da estrutura da plataforma de gestão de despesas compartilhadas:<br/>
+
+[Incluir telas do Wireframe]<br/>
 
 ### Design Visual
 [Descreva o estilo visual da interface, incluindo paleta de cores, tipografia, ícones e outros elementos gráficos.]
 
+Nesta etapa, vamos explorar os aspectos chave do design, incluindo cores, tipografia e layout. Detalhando o design visual da Gestão de Despesas e descobrindo como ele melhora a experiência do usuário. <br/>
+
+[Incluir telas da aplicação Web]<br/>
+
 ### Layout Responsivo
-[Discuta como a interface será adaptada para diferentes tamanhos de tela e dispositivos.]
+  [Discuta como a interface será adaptada para diferentes tamanhos de tela e dispositivos.]
 
 ### Interações do Usuário
 [Descreva as interações do usuário na interface, como animações, transições entre páginas e outras interações.]
