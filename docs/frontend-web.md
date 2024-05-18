@@ -103,7 +103,40 @@ Atualiza dinamicamente o conteúdo da página conforme necessário, oferecendo u
 ![Modelagem da aplicação](img/Modelagem.jpg)
 
 ## Projeto da Interface Web
-[Descreva o projeto da interface Web da aplicação, incluindo o design visual, layout das páginas, interações do usuário e outros aspectos relevantes.]
+<!-- [Descreva o projeto da interface Web da aplicação, incluindo o design visual, layout das páginas, interações do usuário e outros aspectos relevantes.] -->
+
+**Interface Web da Aplicação**:<br/>
+
+**Tela de Acesso**:<br/>
+Esta tela apresenta campos de entrada para o nome de usuário e senha. Os usuários podem fazer login em suas contas existentes ou serem redirecionados para a tela de cadasto. Recursos adicionais incluem links para redefinir senha e navegação fácil para a tela de cadastro.<br/>
+
+**Tela de Cadastro de Novo Usuário**:<br/>
+Aqui, os novos usuários podem se registrar fornecendo informações básicas como nome, telefone, endereço de e-mail e senha. A validação de entrada garante a precisão das informações inseridas. Após o registro bem-sucedido, os usuários são direcionados automaticamente para a tela principal.<br/>
+
+**Tela Principal**:<br/>
+Este é o hub central da aplicação, onde os usuários podem ver uma visão geral de todos os grupos dos quais fazem parte.
+Um layout intuitivo exibe informações sobre despesas.
+Os usuários podem acessar facilmente funcionalidades adicionais, como criar novos grupos, adicionar e quitar despesas.<br/>
+
+**Tela de Adição de Despesa**:<br/>
+Ao selecionar um grupo específico, os usuários podem adicionar novas despesas nesta janela. Campos são fornecidos para especificar o valor da despesa, descrição da despesa, data e grupo.
+Os usuários têm a opção de salvar a despesa e continuar adicionando mais, ou finalizar e retornar ao painel principal.<br/>
+
+**Tela de Quitação de Despesa**:<br/>
+Quando uma despesa é liquidada por um membro, esta tela permite que eles registrem o pagamento.
+O usuário seleciona a despesa a ser quitada e modifica seu status. 
+Após a confirmação, o saldo é atualizado automaticamente para refletir o pagamento.<br/>
+
+**Tela de Criação de Novo Grupo**:<br/>
+Os usuários podem criar novos grupos nesta janela, fornecendo um nome para o grupo.
+A funcionalidade de adicionar membros ao grupo também estará disponível.
+Uma vez criado, o grupo estará pronto para compartilhar despesas.<br/>
+
+**Tela de Inclusão de Amigo**:<br/>
+Esta janela permite que os usuários adicionem novos amigos aos grupos existentes.
+Os usuários podem pesquisar por endereço de e-mail para localizar e adicionar amigos.
+A inclusão de amigos facilita a divisão de despesas e promove uma colaboração financeira mais ampla.
+Cada tela é projetada com foco na usabilidade, apresentando uma interface intuitiva e responsiva para simplificar o processo de gerenciamento de despesas compartilhadas.<br/>
 
 ### Wireframes
 [Inclua os wireframes das páginas principais da interface, mostrando a disposição dos elementos na página.]
