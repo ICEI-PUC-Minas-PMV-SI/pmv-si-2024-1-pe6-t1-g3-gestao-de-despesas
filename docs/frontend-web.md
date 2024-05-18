@@ -146,14 +146,26 @@ Abaixo temos a apresentação dos wireframes da aplicação Gestão de Despesas.
 [Incluir telas do Wireframe]<br/>
 
 ### Design Visual
-[Descreva o estilo visual da interface, incluindo paleta de cores, tipografia, ícones e outros elementos gráficos.]
+<!-- [Descreva o estilo visual da interface, incluindo paleta de cores, tipografia, ícones e outros elementos gráficos.]-->
 
 Nesta etapa, vamos explorar os aspectos chave do design, incluindo cores, tipografia e layout. Detalhando o design visual da Gestão de Despesas e descobrindo como ele melhora a experiência do usuário. <br/>
 
 [Incluir telas da aplicação Web]<br/>
 
 ### Layout Responsivo
-  [Discuta como a interface será adaptada para diferentes tamanhos de tela e dispositivos.]
+ <!--[Discuta como a interface será adaptada para diferentes tamanhos de tela e dispositivos.]-->
+
+ A adaptação da interface para diferentes tamanhos de tela e dispositivos é essencial para garantir uma experiência de usuário consistente e acessível em todos os contextos. Para o Gestão de Despesas, foi implementada uma abordagem responsiva de design, que se ajusta dinamicamente para se adequar a diferentes dispositivos, como desktops, laptops, tablets e smartphones. Seguem algumas considerações e técnicas aplicadas:<br/>
+
+**Layout Flexível**: O layout da aplicação será construído com base em grades flexíveis e fluidas, permitindo que os elementos se reorganizem e redimensionem conforme o tamanho da tela. Isso garante que a disposição dos elementos se adapte de forma natural a qualquer dispositivo.<br/>
+
+**Imagens Responsivas**: As imagens na aplicação serão configuradas como responsivas, ajustando automaticamente seu tamanho e resolução de acordo com as características do dispositivo. Isso ajuda a reduzir o tempo de carregamento e melhora o desempenho em dispositivos móveis.<br/>
+
+**Navegação Simplificada**: Para dispositivos móveis, a navegação será simplificada e otimizada para toque.<br/>
+
+**Testes em Diferentes Dispositivos**: Faremos testes extensivos da aplicação em uma variedade de dispositivos e tamanhos de tela para garantir que a experiência do usuário seja consistente e sem problemas em todos os casos.<br/>
+
+Ao implementar essas técnicas de design responsivo, irá oferecer uma experiência de usuário intuitiva e eficaz, independentemente do dispositivo utilizado para acessá-la. Isso é fundamental para alcançar uma ampla base de usuários e garantir a satisfação do cliente em todas as interações com a aplicação.<br/>
 
 ### Interações do Usuário
 [Descreva as interações do usuário na interface, como animações, transições entre páginas e outras interações.]
