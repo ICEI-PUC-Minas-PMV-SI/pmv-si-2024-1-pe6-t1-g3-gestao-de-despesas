@@ -73,32 +73,32 @@ Desenvolvimento Web: HTML, CSS, JavaScript, Jquery e Bootstrap -->
 
 ## Arquitetura
 
-[Descrição da arquitetura das aplicação web, incluindo os componentes e suas interações.]
+<!--[Descrição da arquitetura das aplicação web, incluindo os componentes e suas interações.]-->
 
 A arquitetura Web foi composta da seguinte maneira: <br/>
 
-HTML: Define a estrutura e o conteúdo da página web. <br/>
-CSS: Estiliza e define a aparência visual dos elementos HTML. <br/>
-JavaScript (incluindo jQuery): <br/>
+**HTML**: Define a estrutura e o conteúdo da página web. <br/>
+**CSS**: Estiliza e define a aparência visual dos elementos HTML. <br/>
+**JavaScript (incluindo jQuery)**: <br/>
 Manipula elementos HTML para fornecer interatividade e dinamismo à página. <br/>
 Responde a eventos do usuário, como cliques em botões e envio de formulários. <br/>
 Realiza validações de formulários e outras tarefas de processamento no lado do cliente. <br/>
-Bootstrap: Fornece componentes e estilos pré-construídos para criar uma interface de usuário responsiva e visualmente atraente.<br/>
-Interação com a API AJAX: <br/>
+**Bootstrap**: Fornece componentes e estilos pré-construídos para criar uma interface de usuário responsiva e visualmente atraente.<br/>
+**Interação com a API AJAX**: <br/>
 Realiza solicitações assíncronas para o back-end, obtendo ou enviando dados sem recarregar a página inteira. <br/>
 Atualiza dinamicamente o conteúdo da página conforme necessário, oferecendo uma experiência de usuário fluida e responsiva. <br/>
 
 ![Arquitetura Web](img/ArquiteturaWeb.jpg)
 
 ## Modelagem da Aplicação
-[Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]
+<!--[Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]-->
 
-Entidades:<br/>
-1 - Users: Informações cadastrais do usuário.<br/>
-2 - Friends: Usuários associados a um grupo de amigos.<br/>
-3 - Groups: Registro de dados relacionados ao grupo de despesas. <br/>
-4 - Expenses: Registro de despesas e valores associados ao grupo.<br/>
-5 - Payments: Registro de pagamentos por integrante do grupo.<br/>
+**Entidades**:<br/>
+**1 - Users**: Informações cadastrais do usuário.<br/>
+**2 - Friends**: Usuários associados a um grupo de amigos.<br/>
+**3 - Groups**: Registro de dados relacionados ao grupo de despesas. <br/>
+**4 - Expenses**: Registro de despesas e valores associados ao grupo.<br/>
+**5 - Payments**: Registro de pagamentos por integrante do grupo.<br/>
 
 ![Modelagem da aplicação](img/Modelagem.jpg)
 
