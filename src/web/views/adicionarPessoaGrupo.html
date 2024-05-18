@@ -13,28 +13,23 @@
 <body>
   <div id="menu"></div>
 
-  <div class="d-flex justify-content-between m-2">
-    <h1 class="">Todas as despesas</h1>
-    <span>
-      <a class="btn btn-primary m-2" href="./adicionarDespesa.html">Adicionar despesa</a>
-      <a class="btn btn-secondary m-2" href="./quitarDespesa.html">Quitar contas</a>
-    </span>
-  </div>
+  <h1>Adicionar Usuário ao Grupo</h1>
+
   <div class="container mt-4">
     <table class="table table-bordered">
       <thead>
         <tr>
-          <th scope="col">Valor</th>
-          <th scope="col">Descrição</th>
-          <th scope="col">Data</th>
-          <th scope="col">Editar</th>
-          <th scope="col">Remover</th>
+          <th scope="col">Nome</th>
+          <th scope="col">Email</th>
+          <th scope="col">Telefone</th>
+          <th scope="col">Adcionar</th>
         </tr>
       </thead>
-      <tbody id="expense-list">
-        <!-- Aqui serão inseridas as linhas de despesas -->
+      <tbody id="user-list">
       </tbody>
     </table>
+    <input type="hidden" id="grupoId">
+    <button type="button" class="btn btn-primary m-2" onclick="addUserToGroup()">Enviar</button>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
@@ -46,9 +41,9 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
     integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
     crossorigin="anonymous"></script>
-
+    
   <script src="../script/menu.js"></script>
-  <script src="../script/expense.js"></script>
+  <script src="../script/group.js"></script>
 </body>
 
 </html>

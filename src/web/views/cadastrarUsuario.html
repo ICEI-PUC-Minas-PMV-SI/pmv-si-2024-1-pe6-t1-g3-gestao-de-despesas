@@ -44,7 +44,15 @@
     <div class="container container-login">
         <div class="row justify-content-center">
             <div class="">
-                <form>
+                <form id="formCreateUser">
+                    <div>
+                        <label for="nome" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="nome" placeholder="Nome completo">
+                    </div>
+                    <div>
+                        <label for="telefone" class="form-label">Telefone</label>
+                        <input type="text" class="form-control" id="telefone" placeholder="telefone">
+                    </div>
                     <div class="">
                         <label for="Email" class="form-label">Endereço de email</label>
                         <input type="email" class="form-control" id="Email" placeholder="Email">
@@ -53,9 +61,8 @@
                         <label for="Password" class="form-label">Senha</label>
                         <input type="password" class="form-control" id="Password" placeholder="Senha">
                     </div>
-                    <button type="button" class="btn" onclick="login()">Enviar</button>
+                    <button type="button" class="btn" onclick="cadastrarUsuario()">Enviar</button>
                 </form>
-                <a href="./cadastrarUsuario.html" class="btn">Cadastrar</a>
             </div>
         </div>
     </div>
