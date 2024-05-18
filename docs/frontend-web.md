@@ -168,7 +168,17 @@ Nesta etapa, vamos explorar os aspectos chave do design, incluindo cores, tipogr
 Ao implementar essas técnicas de design responsivo, irá oferecer uma experiência de usuário intuitiva e eficaz, independentemente do dispositivo utilizado para acessá-la. Isso é fundamental para alcançar uma ampla base de usuários e garantir a satisfação do cliente em todas as interações com a aplicação.<br/>
 
 ### Interações do Usuário
-[Descreva as interações do usuário na interface, como animações, transições entre páginas e outras interações.]
+<!--[Descreva as interações do usuário na interface, como animações, transições entre páginas e outras interações.]-->
+
+Na interface da Gestão de Despesas, priorizamos interações simples e eficientes para proporcionar uma experiência fluida. Seguem algumas das principais interações:<br/>
+
+**Transições Suaves**: As transições entre páginas são suaves para manter a navegação fluida.<br/>
+**Feedback Visual**: Botões e links mudam de cor ou tamanho para indicar interatividade, fornecendo feedback visual instantâneo.<br/>
+**Respostas de Formulário**: Feedback imediato é dado ao enviar formulários, usando pop-ups ou ícones para comunicar sucesso ou falha.<br/>
+**Scroll Suave**: Animamos a rolagem para uma transição suave entre seções, melhorando a experiência de navegação.<br/>
+**Visualização de Detalhes**: Utilizamos transições suaves para revelar ou ocultar informações detalhadas, mantendo a experiência coesa.
+<br/>
+Essas interações são implementadas de forma aprimorar a usabilidade, sem sobrecarregar o usuário com excesso de animações ou feedbacks visuais.<br/>
 
 ## Fluxo de Dados
 
