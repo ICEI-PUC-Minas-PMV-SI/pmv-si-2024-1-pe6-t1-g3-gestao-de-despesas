@@ -182,7 +182,7 @@ O diagrama abaixo ilustra a entrada e saída de dados entre os usuários na apli
 
 ## Requisitos Funcionais
 
-[Liste os principais requisitos funcionais da aplicação.]
+<!--[Liste os principais requisitos funcionais da aplicação.]-->
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
@@ -196,17 +196,24 @@ O diagrama abaixo ilustra a entrada e saída de dados entre os usuários na apli
 
 ## Requisitos Não Funcionais
 
-[Liste os principais requisitos não funcionais da aplicação, como desempenho, segurança, escalabilidade, etc.]
+<!--[Liste os principais requisitos não funcionais da aplicação, como desempenho, segurança, escalabilidade, etc.]-->
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| A aplicação deverá respeitar às restrições impostas pela LGPD. (SEGURANÇA)| ALTA |
 |RNF-002| A aplicação deve garantir a segurança dos dados do usuário. (SEGURANÇA) |  ALTA |
+|RNF-003| A aplicação deve ser compatível com os principais navegadores web e sistemas operacionais móveis. (AMBIENTE) | ALTA | 
+|RNF-004| A aplicação deve lidar eficientemente com um grande volume de requisições. (CONFIABILIDADE)  |  ALTA | 
+|RNF-005| A aplicação deve ser capaz de lidar com um aumento no número de usuários e requisições sem degradação significativa do desempenho. (CONFIABILIDADE) | ALTA | 
+|RNF-006| A interface do usuário deve ser intuitiva e fácil de usar, mesmo para usuários iniciantes. (USABILIDADE) |  ALTA | 
+|RNF-007| A aplicação deve ter um tempo de resposta aceitável para garantir uma experiência do usuário fluida. (CONFIABILIDADE) | MÉDIA | 
+|RNF-009| O sistema deverá fazer uso de design responsivo nas interfaces gráficas.(USABILIDADE) | MÉDIA | 
+|RNF-010| O sistema deve estar disponível 99,99% do tempo.(DISPONIBILIDADE) |  MÉDIA | 
 
 
 ## Considerações de Segurança
 
-[Discuta as considerações de segurança relevantes para a aplicação distribuída, como autenticação, autorização, proteção contra ataques, etc.]
+<!--[Discuta as considerações de segurança relevantes para a aplicação distribuída, como autenticação, autorização, proteção contra ataques, etc.]-->
 
 Autenticação e autorização da API através do token JWT. <br/>
 Senhas: Armazenamento de senha via banco de dados.
