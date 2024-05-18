@@ -159,13 +159,13 @@ Abaixo temos a apresentação dos wireframes da aplicação Gestão de Despesas.
 ![Wireframes](img/WF_TELA_ADICIONAR_AMIGO.png)<br/>
 
 * **Tela Grupos**<br/>
-![Wireframes](img/WF_TELA_.png)<br/>
+![Wireframes](img/WF_TELA_GRUPOS.png)<br/>
 
 * **Tela Adicionar Grupo**<br/>
 ![Wireframes](img/WF_TELA_EDITAR_GRUPO.png)<br/>
 
 * **Tela Despesas**<br/>
-![Wireframes](img/WF_TELA_.png)<br/>
+![Wireframes](img/WF_TELA_TODAS_DESPESAS.png)<br/>
 
 * **Tela Adicionar Despesa**<br/>
 ![Wireframes](img/WF_TELA_ADICIONAR_DESPESA.png)<br/>
