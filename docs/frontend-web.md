@@ -1,7 +1,7 @@
 # Front-end Web
 [Inclua uma breve descrição do projeto e seus objetivos.]
 
-O projeto visa simplificar e facilitar a divisão de despesas entre amigos, colegas de quarto, familiares e grupos em geral. Os usuários podem rastrear facilmente quem pagou determinada despesa e quem deve a quem, eliminando a necessidade de realizar cálculos complexos. <br/>
+<!-- O projeto visa simplificar e facilitar a divisão de despesas entre amigos, colegas de quarto, familiares e grupos em geral. Os usuários podem rastrear facilmente quem pagou determinada despesa e quem deve a quem, eliminando a necessidade de realizar cálculos complexos. <br/>
 
 A aplicação permite que os usuários criem grupos para compartilhar despesas, como viagens, refeições, aluguel e outras despesas compartilhadas. Além disso,o cálculo é feito automaticamente quanto cada pessoa deve, com base nas despesas registradas e quantidade de pessoas integrantes no grupo. <br/>
 
@@ -23,8 +23,31 @@ Facilitar a adição e a remoção de membros de um grupo pelo proprietário.<br
 Garantir que apenas usuários autorizados possam acessar e manipular dados de despesas e grupos.
 Implementar autenticação para proteger as informações sensíveis dos usuários.<br/>
 **Notificações e lembretes:** <br/>
-Enviar notificações aos usuários sobre novas despesas, alterações na divisão das despesas ou despesas pendentes de pagamento.<br/>
+Enviar notificações aos usuários sobre novas despesas, alterações na divisão das despesas ou despesas pendentes de pagamento.<br/> -->
 
+**Nome do Projeto**: Gestão de Despesas<br/>
+<br/>
+**Descrição**:<br/>
+Gestão de Despesas é uma aplicação de front-end web projetada para simplificar e facilitar a divisão de despesas entre pessoas e grupos. A plataforma elimina a necessidade de cálculos manuais ao permitir que os usuários rastreiem facilmente quem pagou determinada despesa e quem deve a quem dentro de um grupo.<br/>
+<br/>
+**Recursos Principais**:
+<br/>
+<br/>
+**Gerenciamento de Grupos**: Os usuários podem criar grupos para compartilhar despesas, como viagens, refeições, aluguel e outras despesas compartilhadas. Cada grupo possui um nome, uma descrição opcional e membros que participam das despesas compartilhadas.<br/>
+<br/>
+**Registro de Despesas**: Os usuários podem registrar despesas dentro de um grupo, especificando o valor da despesa, o pagador e os participantes que compartilham dessa despesa. Eles também podem adicionar uma descrição para facilitar a identificação da transação.<br/>
+<br/>
+**Cálculo Automático**: Com base nas despesas registradas, a quantidade de pessoas integrantes no grupo e quem já quitou a dívida, a aplicação realiza automaticamente o cálculo sobre quanto cada pessoa deve ou está devendo.<br/>
+<br/>
+**Visualização Transparente**: Os usuários têm acesso a uma visualização transparente das despesas do grupo, incluindo quem pagou o quê, quem deve a quem e o saldo atual de cada membro do grupo. Isso permite uma compreensão clara das finanças compartilhadas.<br/>
+<br/>
+**Histórico de Transações**: Um histórico detalhado de todas as transações realizadas dentro do grupo é mantido, permitindo que os usuários consultem registros passados e acompanhem o histórico de pagamentos.<br/>
+<br/>
+**Segurança e Privacidade**: A plataforma prioriza a segurança e a privacidade dos dados dos usuários, garantindo que as informações financeiras estejam protegidas e acessíveis apenas para os membros autorizados de cada grupo.<br/>
+<br/>
+**Objetivo**:<br/>
+O objetivo principal do Gestão de Despesas é simplificar e agilizar o processo de divisão de despesas, tornando-o transparente, justo e livre de estresse para todos os envolvidos. Ao automatizar os cálculos e fornecer uma interface intuitiva para rastrear e gerenciar despesas compartilhadas, a aplicação visa promover uma colaboração financeira mais harmoniosa entre amigos, colegas de quarto, familiares e grupos em geral.<br/>
+<br/>
 ## Tecnologias Utilizadas
 [Lista das tecnologias principais que serão utilizadas no projeto.]
 
