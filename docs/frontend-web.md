@@ -49,7 +49,7 @@ Gestão de Despesas é uma aplicação de front-end web projetada para simplific
 O objetivo principal do Gestão de Despesas é simplificar e agilizar o processo de divisão de despesas, tornando-o transparente, justo e livre de estresse para todos os envolvidos. Ao automatizar os cálculos e fornecer uma interface intuitiva para rastrear e gerenciar despesas compartilhadas, a aplicação visa promover uma colaboração financeira mais harmoniosa entre amigos, colegas de quarto, familiares e grupos em geral.<br/>
 <br/>
 ## Tecnologias Utilizadas
-[Lista das tecnologias principais que serão utilizadas no projeto.]
+<!-- [Lista das tecnologias principais que serão utilizadas no projeto.]
 
 A API REST de gestão de despesas é desenvolvida na linguagem C# e o framework ASP.NET Core. <br/>
 
@@ -57,7 +57,19 @@ IDE: Visual Studio; Visual Studio Code <br/>
 Banco de dados: SQL Server <br/>
 Documentação da API: Swagger <br/>
 Consumo dos dados da API via AJX <br/>
-Desenvolvimento Web: HTML, CSS, JavaScript, Jquery e Bootstrap
+Desenvolvimento Web: HTML, CSS, JavaScript, Jquery e Bootstrap -->
+
+**API REST em ASP.NET Core (C#)**: A API de gestão de despesas é desenvolvida na linguagem C# utilizando o framework ASP.NET Core, que oferece uma plataforma robusta e escalável para a criação de APIs RESTful.<br/>
+
+**IDEs**: Para o desenvolvimento da API e do front-end, são utilizadas as IDEs Visual Studio e Visual Studio Code, ambas oferecendo ferramentas avançadas de desenvolvimento, depuração e integração para agilizar o processo de desenvolvimento.<br/>
+
+**Banco de Dados SQL Server**: O SQL Server foi utilizado como o banco de dados principal para armazenar todas as informações relacionadas às despesas, grupos e usuários. Sua robustez, desempenho e recursos de segurança são fundamentais para garantir a integridade e confiabilidade dos dados.<br/>
+
+**Documentação da API com Swagger**: A documentação da API é gerada e mantida utilizando o Swagger, uma ferramenta que facilita a criação de documentação interativa para APIs RESTful. Isso permite que os desenvolvedores e usuários compreendam facilmente como utilizar os endpoints da API.<br/>
+
+**Consumo de Dados via AJAX**: Para consumir os dados da API de forma assíncrona e dinâmica, o AJAX (Asynchronous JavaScript and XML) é utilizado. Isso permite que o front-end atualize os dados da interface sem a necessidade de recarregar a página, proporcionando uma experiência de usuário mais fluida.<br/>
+
+**Desenvolvimento Web com HTML, CSS, JavaScript, jQuery e Bootstrap**: O front-end da aplicação é desenvolvido utilizando tecnologias web padrão, como HTML para estruturação, CSS para estilização, JavaScript para interatividade, jQuery para simplificar o código JavaScript e Bootstrap para o desenvolvimento de uma interface responsiva e visualmente atraente. Essas tecnologias combinadas garantem uma experiência de usuário moderna e intuitiva.<br/>
 
 ## Arquitetura
 
