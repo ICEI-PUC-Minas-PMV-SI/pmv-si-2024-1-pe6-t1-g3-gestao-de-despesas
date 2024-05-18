@@ -4,6 +4,22 @@ $(document).ready(function () {
     getUserByGroup();
 });
 
+function getToken() {
+    var token = localStorage.getItem('token');
+
+    if (!token) {
+        console.error('Token de autenticação não encontrado.');
+
+        if (window.location.pathname !== '/views/login.html' && window.location.pathname !== '/views/cadastrarUsuario.html') {
+            window.location.href = './login.html';
+        }
+
+        return null;
+    }
+
+    return token;
+}
+
 function getIdGroupByURL() {
     var url = new URL(window.location.href);
     var idDoGrupo = url.searchParams.get("id");
@@ -19,13 +35,7 @@ function getGroupInfo() {
         return;
     }
 
-    var token = localStorage.getItem('token');
-
-    if (!token) {
-        console.error('Token de autenticação não encontrado.');
-        return;
-    }
-
+    var token = getToken();
     $.ajax({
         url: 'http://localhost:5286/api/Groups/' + idDoGrupo,
         method: 'GET',
@@ -43,12 +53,7 @@ function getGroupInfo() {
 }
 
 function editGroup() {
-    var token = localStorage.getItem('token');
-
-    if (!token) {
-        console.error('Token de autenticação não encontrado.');
-        return;
-    }
+    var token = getToken();
 
     var nome = $('#nomeGrupo').val();
     var id = $('#idGrupo').val();
@@ -87,12 +92,7 @@ function getUserByGroup() {
         return;
     }
 
-    var token = localStorage.getItem('token');
-
-    if (!token) {
-        console.error('Token de autenticação não encontrado.');
-        return;
-    }
+    var token = getToken();
 
     $.ajax({
         url: 'http://localhost:5286/api/Groups/' + idDoGrupo,
@@ -138,12 +138,7 @@ function getUserByGroup() {
 
 
 function deleteUserGroup(friendId) {
-    var token = localStorage.getItem('token');
-    
-    if (!token) {
-        console.error('Token de autenticação não encontrado.');
-        return;
-    }
+    var token = getToken();
 
     var groupId = $('#idGrupo').val();
 

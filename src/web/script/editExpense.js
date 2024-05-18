@@ -3,6 +3,22 @@ $(document).ready(function () {
     getGroups();
 });
 
+function getToken() {
+    var token = localStorage.getItem('token');
+
+    if (!token) {
+        console.error('Token de autenticação não encontrado.');
+
+        if (window.location.pathname !== '/views/login.html' && window.location.pathname !== '/views/cadastrarUsuario.html') {
+            window.location.href = './login.html';
+        }
+
+        return null;
+    }
+
+    return token;
+}
+
 function getIdExpenseByURL() {
     var url = new URL(window.location.href);
     var idExpese = url.searchParams.get("id");
@@ -17,12 +33,7 @@ function getExpenseInfo() {
         return;
     }
 
-    var token = localStorage.getItem('token');
-
-    if (!token) {
-        console.error('Token de autenticação não encontrado.');
-        return;
-    }
+    var token = getToken();
 
     var apiUrl = 'http://localhost:5286/api/Expenses/' + idExpense;
 
@@ -32,7 +43,7 @@ function getExpenseInfo() {
         headers: {
             'Authorization': 'Bearer ' + token
         },
-        success: function(response) {
+        success: function (response) {
             console.log('Informações da despesa obtidas com sucesso:', response);
 
             $('#idDespesa').val(response.id);
@@ -40,20 +51,14 @@ function getExpenseInfo() {
             $('#descricao').val(response.description);
 
         },
-        error: function(jqXHR, textStatus, errorThrown) {
+        error: function (jqXHR, textStatus, errorThrown) {
             console.error('Erro ao obter informações da despesa:', textStatus, errorThrown);
         }
     });
 }
 
 function getGroups() {
-    var token = localStorage.getItem('token');
-
-    if (!token) {
-        console.error('Token de autenticação não encontrado.');
-        return;
-    }
-
+    var token = getToken();
     var apiUrl = 'http://localhost:5286/api/Groups';
 
     $.ajax({
@@ -82,13 +87,7 @@ function getGroups() {
 }
 
 function editExpense() {
-    var token = localStorage.getItem('token');
-
-    if (!token) {
-        console.error('Token de autenticação não encontrado.');
-        return;
-    }
-
+    var token = getToken();
     var idDespesa = $('#idDespesa').val();
     var valor = $('#valor').val();
     var data = $('#data').val();
@@ -113,12 +112,12 @@ function editExpense() {
             'Content-Type': 'application/json'
         },
         data: JSON.stringify(data),
-        success: function(response) {
+        success: function (response) {
             console.log('Despesa editada com sucesso:', response);
             alert('Despesa editada com sucesso')
             window.location.href = './despesas.html';
         },
-        error: function(jqXHR, textStatus, errorThrown) {
+        error: function (jqXHR, textStatus, errorThrown) {
             console.error('Erro ao editar despesa:', textStatus, errorThrown);
             alert('Erro ao editar despesa')
             window.location.href = './despesas.html';

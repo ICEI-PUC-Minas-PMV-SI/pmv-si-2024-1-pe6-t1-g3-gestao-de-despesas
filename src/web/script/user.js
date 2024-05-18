@@ -1,7 +1,38 @@
 $(document).ready(function() {
     getUsers();
+    parseJwt();
 
 })
+
+function getToken() {
+    var token = localStorage.getItem('token');
+
+    if (!token) {
+        console.error('Token de autenticação não encontrado.');
+
+        if (window.location.pathname !== '/views/login.html' && window.location.pathname !== '/views/cadastrarUsuario.html') {
+            window.location.href = './login.html';
+        }
+
+        return null;
+    }
+
+    return token;
+}
+
+function parseJwt() {
+    // var token = localStorage.getItem('token');
+    var token = getToken();
+    var base64Url = token.split('.')[1];
+    var base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
+    var jsonPayload = decodeURIComponent(atob(base64).split('').map(function(c) {
+        return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+    }).join(''));
+
+    var user = JSON.parse(jsonPayload);
+    localStorage.setItem('idUser', user);
+}
+
 function cadastrarUsuario() {
     var nome = $('#nome').val();
     var telefone = $('#telefone').val();
@@ -54,9 +85,8 @@ function login() {
         method: 'POST',
         contentType: 'application/json',
         data: JSON.stringify(data),
-        success: function(response) {
-            console.log('Login com sucesso:', response);            
-            localStorage.setItem('token', response.jwtToken);            
+        success: function(response) { 
+            localStorage.setItem('token', response.jwtToken);                        
             window.location.href = './home.html';
         },
         error: function(jqXHR, textStatus, errorThrown) {
@@ -73,13 +103,7 @@ function logout() {
 }
 
 function getUsers() {
-    var token = localStorage.getItem('token');
-
-    if (!token) {
-        console.error('Token de autenticação não encontrado.');
-        return;
-    }
-
+    var token = getToken();
     var apiUrl = 'http://localhost:5286/api/Users';
 
     $.ajax({

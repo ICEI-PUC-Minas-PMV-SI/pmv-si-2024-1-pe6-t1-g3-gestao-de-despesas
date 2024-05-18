@@ -1,16 +1,26 @@
-$(document).ready(function() {
+$(document).ready(function () {
     getGroups();
     getExpenses();
 });
 
-function getGroups() {
+function getToken() {
     var token = localStorage.getItem('token');
 
     if (!token) {
         console.error('Token de autenticação não encontrado.');
-        return;
+
+        if (window.location.pathname !== '/views/login.html' && window.location.pathname !== '/views/cadastrarUsuario.html') {
+            window.location.href = './login.html';
+        }
+
+        return null;
     }
 
+    return token;
+}
+
+function getGroups() {
+    var token = getToken();
     var apiUrl = 'http://localhost:5286/api/Groups';
 
     $.ajax({
@@ -39,15 +49,8 @@ function getGroups() {
 }
 
 function addExpense() {
-    var token = localStorage.getItem('token');
-
-    if (!token) {
-        console.error('Token de autenticação não encontrado.');
-        return;
-    }
-
+    var token = getToken();
     var apiUrl = 'http://localhost:5286/api/Expenses';
-
     var valueExpense = ($('#valor').val());
     var date = $('#data').val();
     var description = $('#descricao').val();
@@ -73,25 +76,19 @@ function addExpense() {
             'Authorization': 'Bearer ' + token
         },
         data: JSON.stringify(data),
-        success: function(response) {
+        success: function (response) {
             console.log('Despesa adicionada com sucesso:', response);
             alert('Despesa adicionada com sucesso')
             window.location.href = './despesas.html';
         },
-        error: function(jqXHR, textStatus, errorThrown) {
+        error: function (jqXHR, textStatus, errorThrown) {
             console.error('Erro ao adicionar despesa:', textStatus, errorThrown);
         }
     });
 }
 
 function getExpenses() {
-    var token = localStorage.getItem('token');
-
-    if (!token) {
-        console.error('Token de autenticação não encontrado.');
-        return;
-    }
-
+    var token = getToken();
     var apiUrl = 'http://localhost:5286/api/Expenses';
 
     $.ajax({
@@ -100,13 +97,13 @@ function getExpenses() {
         headers: {
             'Authorization': 'Bearer ' + token
         },
-        success: function(response) {
+        success: function (response) {
             console.log('Despesas obtidas com sucesso:', response);
 
             var expenseList = $('#expense-list');
             expenseList.empty();
 
-            response.forEach(function(expense) {
+            response.forEach(function (expense) {
                 var expenseRow = `
                     <tr>
                         <td>R$ ${expense.valueExpense}</td>
@@ -133,20 +130,14 @@ function getExpenses() {
                 expenseList.append(expenseRow);
             });
         },
-        error: function(jqXHR, textStatus, errorThrown) {
+        error: function (jqXHR, textStatus, errorThrown) {
             console.error('Erro ao obter despesas:', textStatus, errorThrown);
         }
     });
 }
 
 function deleteExpense(id) {
-    var token = localStorage.getItem('token');
-
-    if (!token) {
-        console.error('Token de autenticação não encontrado.');
-        return;
-    }
-
+    var token = getToken();
     var apiUrl = 'http://localhost:5286/api/Expenses/' + id;
 
     $.ajax({
@@ -155,12 +146,12 @@ function deleteExpense(id) {
         headers: {
             'Authorization': 'Bearer ' + token
         },
-        success: function(response) {
+        success: function (response) {
             console.log('Despesa deletada com sucesso:', response);
             alert('Despesa deletada com sucesso');
             window.location.href = './despesas.html';
         },
-        error: function(jqXHR, textStatus, errorThrown) {
+        error: function (jqXHR, textStatus, errorThrown) {
             console.error('Erro ao deletar despesa:', textStatus, errorThrown);
             alert('Erro ao deletar despesa');
             window.location.href = './despesas.html';

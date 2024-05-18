@@ -3,14 +3,24 @@ $(document).ready(function () {
     getUsers();
 });
 
-function cadastrarGrupo() {
+function getToken() {
     var token = localStorage.getItem('token');
 
     if (!token) {
         console.error('Token de autenticação não encontrado.');
-        return;
+
+        if (window.location.pathname !== '/views/login.html' && window.location.pathname !== '/views/cadastrarUsuario.html') {
+            window.location.href = './login.html';
+        }
+
+        return null;
     }
 
+    return token;
+}
+
+function cadastrarGrupo() {
+    var token = getToken();
     var nome = $('#nomeGrupo').val();
 
     var data = {
@@ -41,13 +51,7 @@ function cadastrarGrupo() {
 }
 
 function getGroups() {
-    var token = localStorage.getItem('token');
-
-    if (!token) {
-        console.error('Token de autenticação não encontrado.');
-        return;
-    }
-
+    var token = getToken();
     var apiUrl = 'http://localhost:5286/api/Groups';
 
     $.ajax({
@@ -102,13 +106,7 @@ function getGroups() {
 }
 
 function deleteGroup(id) {
-    var token = localStorage.getItem('token');
-
-    if (!token) {
-        console.error('Token de autenticação não encontrado.');
-        return;
-    }
-
+    var token = getToken();
     var apiUrl = `http://localhost:5286/api/Groups/${id}`;
 
     $.ajax({
@@ -132,14 +130,8 @@ function deleteGroup(id) {
 }
 
 function getUsers() {
-    var token = localStorage.getItem('token');
-
-    if (!token) {
-        console.error('Token de autenticação não encontrado.');
-        return;
-    }
+    var token = getToken();
     var id_grupo = getIdGroupByURL();
-
     var apiUrl = 'http://localhost:5286/api/Users';
 
     $.ajax({
@@ -176,13 +168,7 @@ function getUsers() {
 }
 
 function addUserToGroup() {
-    var token = localStorage.getItem('token');
-
-    if (!token) {
-        console.error('Token de autenticação não encontrado.');
-        return;
-    }
-
+    var token = getToken();
     var groupId = $('#grupoId').val();
     var selectedUsers = [];
 
@@ -197,7 +183,7 @@ function addUserToGroup() {
 
     var apiUrlTemplate = `http://localhost:5286/api/Groups/${groupId}/users/1/friend/{userId}`;
 
-    selectedUsers.forEach(function(userId) {
+    selectedUsers.forEach(function (userId) {
         var apiUrl = apiUrlTemplate.replace('{userId}', userId);
 
         $.ajax({
