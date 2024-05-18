@@ -143,7 +143,37 @@ Cada tela é projetada com foco na usabilidade, apresentando uma interface intui
 
 Abaixo temos a apresentação dos wireframes da aplicação Gestão de Despesas. Aqui, oferecemos um vislumbre do design e da estrutura da plataforma de gestão de despesas compartilhadas:<br/>
 
-[Incluir telas do Wireframe]<br/>
+* **Tela de Login**<br/>
+![Wireframes](img/WF_TELA_LOGIN.png)<br/>
+
+* **Tela de Cadastro**<br/>
+![Wireframes](img/WF_TELA_CADASTRO.png)<br/>
+
+* **Tela Home**<br/>
+![Wireframes](img/WF_TELA_USUARIOS.png)<br/>
+
+* **Tela Amigos**<br/>
+![Wireframes](img/WF_TELA_AMIGOS.png)<br/>
+
+* **Tela Adicionar Amigo**<br/>
+![Wireframes](img/WF_TELA_ADICIONAR_AMIGO.png)<br/>
+
+* **Tela Grupos**<br/>
+![Wireframes](img/WF_TELA_.png)<br/>
+
+* **Tela Adicionar Grupo**<br/>
+![Wireframes](img/WF_TELA_EDITAR_GRUPO.png)<br/>
+
+* **Tela Despesas**<br/>
+![Wireframes](img/WF_TELA_.png)<br/>
+
+* **Tela Adicionar Despesa**<br/>
+![Wireframes](img/WF_TELA_ADICIONAR_DESPESA.png)<br/>
+
+* **Tela Quitar Despesa**<br/>
+![Wireframes](img/WF_TELA_QUITAR_DESPESA.png)<br/>
+
+
 
 ### Design Visual
 <!-- [Descreva o estilo visual da interface, incluindo paleta de cores, tipografia, ícones e outros elementos gráficos.]-->
