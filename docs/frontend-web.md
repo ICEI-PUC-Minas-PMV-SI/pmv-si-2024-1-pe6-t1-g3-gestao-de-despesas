@@ -178,7 +178,7 @@ Na interface da Gestão de Despesas, priorizamos interações simples e eficient
 **Scroll Suave**: Animamos a rolagem para uma transição suave entre seções, melhorando a experiência de navegação.<br/>
 **Visualização de Detalhes**: Utilizamos transições suaves para revelar ou ocultar informações detalhadas, mantendo a experiência coesa.
 <br/>
-Essas interações são implementadas de forma aprimorar a usabilidade, sem sobrecarregar o usuário com excesso de animações ou feedbacks visuais.<br/>
+<br/>Essas interações são implementadas de forma aprimorar a usabilidade, sem sobrecarregar o usuário com excesso de animações ou feedbacks visuais.<br/>
 
 ## Fluxo de Dados
 
