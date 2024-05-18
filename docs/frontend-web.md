@@ -139,7 +139,9 @@ A inclusão de amigos facilita a divisão de despesas e promove uma colaboraçã
 Cada tela é projetada com foco na usabilidade, apresentando uma interface intuitiva e responsiva para simplificar o processo de gerenciamento de despesas compartilhadas.<br/>
 
 ### Wireframes
-[Inclua os wireframes das páginas principais da interface, mostrando a disposição dos elementos na página.]
+<!-- [Inclua os wireframes das páginas principais da interface, mostrando a disposição dos elementos na página.] -->
+
+Abaixo temos a apresentação dos wireframes da aplicação Gestão de Despesas. Aqui, oferecemos um vislumbre do design e da estrutura da plataforma de gestão de despesas compartilhadas:
 
 ### Design Visual
 [Descreva o estilo visual da interface, incluindo paleta de cores, tipografia, ícones e outros elementos gráficos.]
