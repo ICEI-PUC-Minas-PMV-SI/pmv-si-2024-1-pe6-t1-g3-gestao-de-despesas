@@ -258,13 +258,37 @@ Senhas: Armazenamento de senha via banco de dados.
 
 ## Implantação
 
-[Instruções para implantar a aplicação distribuída em um ambiente de produção.]
+<!-- [Instruções para implantar a aplicação distribuída em um ambiente de produção.]
 
 1. Defina os requisitos de hardware e software necessários para implantar a aplicação em um ambiente de produção.
 2. Escolha uma plataforma de hospedagem adequada, como um provedor de nuvem ou um servidor dedicado.
 3. Configure o ambiente de implantação, incluindo a instalação de dependências e configuração de variáveis de ambiente.
 4. Faça o deploy da aplicação no ambiente escolhido, seguindo as instruções específicas da plataforma de hospedagem.
-5. Realize testes para garantir que a aplicação esteja funcionando corretamente no ambiente de produção.
+5. Realize testes para garantir que a aplicação esteja funcionando corretamente no ambiente de produção. -->
+
+Seguem abaixo as especificações consideradas ideais a ser consideradas no momento da implantação:
+
+**Requisitos de Hardware**:
+
+* Servidor: Uma máquina virtual (VM) com pelo menos 1 CPU, 2 GB de RAM e 20 GB de espaço em disco (ajustável conforme o tamanho e demanda da aplicação).
+* Rede: Conexão de internet estável e rápida para garantir a disponibilidade e a resposta eficiente do site.
+
+**Requisitos de Software**:
+
+* Sistema Operacional: Linux (Ubuntu 20.04 ou superior recomendado) ou Windows Server, conforme a preferência e compatibilidade com a aplicação.
+* Web Server: Nginx ou Apache para servir os arquivos estáticos da aplicação.
+* Node.js: Para build e gerenciamento de dependências, especialmente se o projeto utilizar frameworks como React, Angular ou Vue.js.
+* Git: Para controle de versão e deploy contínuo.
+
+  **Hospedagem**
+
+A plataforma Azure é recomendada devido à sua robustez e capacidade de escalabilidade.
+
+Configuração Inicial:
+
+* Criação de aplicação no Azure App Service.
+* Configuração do Azure Storage e a CDN para servir os ativos estáticos.
+
 
 ## Testes
 
