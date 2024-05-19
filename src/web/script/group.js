@@ -269,8 +269,7 @@ function getGroupDetails() {
             'Authorization': 'Bearer ' + token
         },
         success: function (response) {
-            console.log(response);
-            $('#total-expense').text(`Total da Dívida: R$ ${response.totalExpense.toFixed(2)}`);
+            $('#total-expense').text(`Total gasto: R$ ${response.totalExpense.toFixed(2)}`);
 
             var debtsTbody = $('#debts-tbody');
             debtsTbody.empty();
@@ -296,6 +295,8 @@ function getGroupDetails() {
             } else {
                 debtsTbody.append('<tr><td colspan="3">Nenhuma dívida encontrada.</td></tr>');
             }
+
+            renderPayments(response.expenses);
         },
         error: function (jqXHR, textStatus, errorThrown) {
             console.error('Erro ao obter detalhes do grupo:', textStatus, errorThrown);
@@ -303,3 +304,57 @@ function getGroupDetails() {
         }
     });
 }
+
+function renderPayments(expenses) {
+    var paymentsTbody = $('#payments-tbody');
+    paymentsTbody.empty();
+
+    expenses.forEach(function(expense) {
+        expense.payments.forEach(function(payment) {
+            var userName = '';
+            if (payment.userId) {
+                var user = getUserById(payment.userId);
+                if (user) {
+                    userName = user.name;
+                }
+            }
+
+            var paymentRow = `
+                <tr>
+                    <td>${userName}</td>
+                    <td>R$ ${payment.valuePayment.toFixed(2)}</td>
+                </tr>
+            `;
+            paymentsTbody.append(paymentRow);
+        });
+    });
+
+    if (paymentsTbody.children().length === 0) {
+        paymentsTbody.append('<tr><td colspan="2">Nenhum pagamento encontrado.</td></tr>');
+    }
+}
+
+function getUserById(userId) {
+    var token = getToken();
+    var apiUrl = `http://localhost:5286/api/Users/${userId}`;
+
+    var user = null;
+
+    $.ajax({
+        url: apiUrl,
+        method: 'GET',
+        async: false,
+        headers: {
+            'Authorization': 'Bearer ' + token
+        },
+        success: function(response) {
+            user = response;
+        },
+        error: function(jqXHR, textStatus, errorThrown) {
+            console.error('Erro ao obter usuário:', textStatus, errorThrown);
+        }
+    });
+
+    return user;
+}
+
