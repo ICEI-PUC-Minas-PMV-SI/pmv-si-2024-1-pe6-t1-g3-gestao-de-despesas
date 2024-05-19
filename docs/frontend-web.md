@@ -268,14 +268,167 @@ Senhas: Armazenamento de senha via banco de dados.
 
 ## Testes
 
-[Descreva a estratégia de teste, incluindo os tipos de teste a serem realizados (unitários, integração, carga, etc.) e as ferramentas a serem utilizadas.]
+<!-- [Descreva a estratégia de teste, incluindo os tipos de teste a serem realizados (unitários, integração, carga, etc.) e as ferramentas a serem utilizadas.] 
 
 1. Crie casos de teste para cobrir todos os requisitos funcionais e não funcionais da aplicação.
 2. Implemente testes unitários para testar unidades individuais de código, como funções e classes.
 3. Realize testes de integração para verificar a interação correta entre os componentes da aplicação.
 4. Execute testes de carga para avaliar o desempenho da aplicação sob carga significativa.
-5. Utilize ferramentas de teste adequadas, como frameworks de teste e ferramentas de automação de teste, para agilizar o processo de teste.
+5. Utilize ferramentas de teste adequadas, como frameworks de teste e ferramentas de automação de teste, para agilizar o processo de teste. -->
 
-# Referências
+Seguem abaixo os testes de usabilidade considerando os requisitos especificados neste documento, assim como a utilização da aplicação integrada com a API:
 
-Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
+**1- Página de login**:<br/>
+
+![Modelagem da aplicação](img/t_pagina_login.jpeg)
+<br/>
+
+**2- Página de cadastro de usuário**: Clicar no botão "Cadastrar" da página de login para chegar nessa tela. <br/>
+
+![Modelagem da aplicação](img/t_pagina_cadastro.jpeg)
+<br/>
+
+**3- Página de cadastro de usuário**: Preenche as informações, clica em enviar para cadastrar. <br/>
+
+![Modelagem da aplicação](img/t_pagina_cadastro_2.jpeg)
+<br/>
+
+**4- Página de cadastro de usuário**: Mensagem de sucesso ao cadastrar usuário. <br/>
+
+![Modelagem da aplicação](img/t_pagina_cadastro_3.jpeg)
+<br/>
+
+**5- Home**: Ao fazer login, usuário é direcionado para página home. <br/>
+
+![Modelagem da aplicação](img/t_pagina_home.jpeg)
+<br/>
+
+**6- Grupos**: <br/>
+
+![Modelagem da aplicação](img/t_pagina_grupos.jpeg)
+<br/>
+
+**7- Grupos**: Ao clicar em adicionar grupo, somos direcionado a essa página. <br/>
+
+![Modelagem da aplicação](img/t_pagina_adicionar_grupo.jpeg)
+<br/>
+
+**8- Grupos**: Informe o nome do grupo e clica em enviar para criar um grupo. <br/>
+
+![Modelagem da aplicação](img/t_pagina_adicionar_grupo_2.jpeg)
+<br/>
+
+**9- Grupos**: Mensagem de sucesso. <br/>
+
+![Modelagem da aplicação](img/t_pagina_adicionar_grupo_3.jpeg)
+<br/>
+
+**10- Amigos do grupo**: Adiconar pessoas ao grupo, clicar no icone de adicionar do respectivo grupo. <br/>
+
+![Modelagem da aplicação](img/t_pagina_adicionar_grupo_amigo.jpeg)
+<br/>
+
+**11- Amigos do grupo**: Seleciona as pessoas que deseja adicionar ao grupo, clica em enviar. <br/>
+
+![Modelagem da aplicação](img/t_pagina_adicionar_grupo_amigo_2.jpeg)
+<br/>
+
+**12- Amigos do grupo**: Mensagem de sucesso. <br/>
+
+![Modelagem da aplicação](img/t_pagina_adicionar_grupo_amigo_3.jpeg)
+<br/>
+
+**13- Detalhes do grupo**: Clicar no nome do grupo para ver os detalhes do mesmo. <br/>
+
+![Modelagem da aplicação](img/t_pagina_grupos_detalhes.jpeg)
+<br/>
+
+**14- Editar grupo**: Clicar no icone de editar para editar as informações do grupo. <br/>
+
+![Modelagem da aplicação](img/t_pagina_grupos_editar.jpeg)
+<br/>
+
+**15- Editar grupo**: Clicar no icone de remover para remover usuário, mensagem de sucesso. <br/>
+
+![Modelagem da aplicação](img/t_pagina_grupos_editar_usuario.jpeg)
+<br/>
+
+**16- Editar grupo**: Renomeando nome do grupo. <br/>
+
+![Modelagem da aplicação](img/t_pagina_grupos_editar_renomear.jpeg)
+<br/>
+
+**17- Grupos**: Página de grupos atualizada. <br/>
+
+![Modelagem da aplicação](img/t_pagina_grupos_atualizado.jpeg)
+<br/>
+
+**18- Despesa**: Tela de despesa. <br/>
+
+![Modelagem da aplicação](img/t_pagina_despesa.jpeg)
+<br/>
+
+**19- Adicionar despesa**: Clicar em adicionar despesa para adicionar uma despesa. <br/>
+
+![Modelagem da aplicação](img/t_pagina_adicionar_despesa.jpeg)
+<br/>
+
+**20- Adicionar despesa**: Preencha as informações e clique em adicionar. <br/>
+
+![Modelagem da aplicação](img/t_pagina_adicionar_despesa_editar.jpeg)
+<br/>
+
+**21- Adicionar despesa**: Mensagem de sucesso. <br/>
+
+![Modelagem da aplicação](img/t_pagina_adicionar_despesa_editar_2.jpeg)
+<br/>
+
+**22- Despesa**: Página atualizada. <br/>
+
+![Modelagem da aplicação](img/t_pagina_adicionar_despesa_2.jpeg)
+<br/>
+
+**22- Editar despesa**: Editando despesa. <br/>
+
+![Modelagem da aplicação](img/t_pagina_editar_despesa.jpeg)
+<br/>
+
+**23- Editar despesa**: Mensagem de sucesso. <br/>
+
+![Modelagem da aplicação](img/t_pagina_editar_despesa_2.jpeg)
+<br/>
+
+**24- Despesa**: Página atualizada. <br/>
+
+![Modelagem da aplicação](img/t_pagina_despesa_2.jpeg)
+<br/>
+
+**25- Remover despesa**: Clicar no icone de remover para remover despesa, mensagem de sucesso. <br/>
+
+![Modelagem da aplicação](img/t_pagina_remover_despesa.jpeg)
+<br/>
+
+**26- Despesa**: Página atualizada. <br/>
+
+![Modelagem da aplicação](img/t_pagina_despesa_3.jpeg)
+<br/>
+
+**27- Quitar despesa**:  <br/>
+
+![Modelagem da aplicação](img/t_pagina_quitar_despesa.jpeg)
+<br/>
+
+**28- Quitar despesa**: Escolha o valor e o nome da pessoa que está quitando. <br/>
+
+![Modelagem da aplicação](img/t_pagina_quitar_despesa_2.jpeg)
+<br/>
+
+**28- Quitar despesa**: Mensagem de sucesso. <br/>
+
+![Modelagem da aplicação](img/t_pagina_quitar_despesa_3.jpeg)
+<br/>
+
+
+<!-- # Referências
+
+Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho. -->
