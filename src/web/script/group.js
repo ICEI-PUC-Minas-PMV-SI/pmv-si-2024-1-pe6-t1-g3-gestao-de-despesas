@@ -1,6 +1,7 @@
 $(document).ready(function () {
     getGroups();
     getUsers();
+    getGroupDetails();
 });
 
 function getToken() {
@@ -61,15 +62,16 @@ function getGroups() {
             'Authorization': 'Bearer ' + token
         },
         success: function (response) {
-            console.log('Grupos obtidos com sucesso:', response);
-
             var grupoList = $('#grupo-list');
+
             grupoList.empty();
 
             response.forEach(function (grupo) {
                 var grupoRow = `
                     <tr>
-                        <td>${grupo.nameGroup}</td>
+                        <td>
+                            <a href="./detalhesGrupo.html?idGrupo=${grupo.id}">${grupo.nameGroup}</a>
+                        </td>
                         <td>
                             <a href="./adicionarPessoaGrupo.html?idGrupo=${grupo.id}">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-add" viewBox="0 0 16 16">
@@ -210,4 +212,94 @@ function getIdGroupByURL() {
     var url = new URL(window.location.href);
     var idDoGrupo = url.searchParams.get("idGrupo");
     return idDoGrupo;
+}
+
+// function getGroupDetails() {
+//     var token = getToken();
+//     var idDoGrupo = getIdGroupByURL();
+
+//     if (!idDoGrupo) {
+//         console.error('ID do grupo não encontrado na URL.');
+//         return;
+//     }
+
+//     var apiUrl = `http://localhost:5286/api/Groups/${idDoGrupo}`;
+
+//     $.ajax({
+//         url: apiUrl,
+//         method: 'GET',
+//         headers: {
+//             'Authorization': 'Bearer ' + token
+//         },
+//         success: function(response) {
+//             console.log(response)
+//             // $('#group-name').text(response.nameGroup);
+//             // $('#group-description').text(response.description);
+//         },
+//         error: function(jqXHR, textStatus, errorThrown) {
+//             console.error('Erro ao obter detalhes do grupo:', textStatus, errorThrown);
+//             alert('Erro ao obter detalhes do grupo');
+//         }
+//     });
+// }
+
+function getGroupDetails() {
+    var token = getToken();
+    var idDoGrupo = getIdGroupByURL();
+
+    if (!idDoGrupo) {
+        console.error('ID do grupo não encontrado na URL.');
+        return;
+    }
+
+    if (!token) {
+        console.error('Token de autenticação não encontrado.');
+        if (window.location.pathname !== '/views/login.html' && window.location.pathname !== '/views/cadastrarUsuario.html') {
+            window.location.href = './login.html';
+        }
+        return;
+    }
+
+    var apiUrl = `http://localhost:5286/api/Groups/${idDoGrupo}`;
+
+    $.ajax({
+        url: apiUrl,
+        method: 'GET',
+        headers: {
+            'Authorization': 'Bearer ' + token
+        },
+        success: function (response) {
+            console.log(response);
+            $('#total-expense').text(`Total da Dívida: R$ ${response.totalExpense.toFixed(2)}`);
+
+            var debtsTbody = $('#debts-tbody');
+            debtsTbody.empty();
+
+            if (response.expenses && Array.isArray(response.expenses)) {
+                response.expenses.forEach(function (expense) {
+                    // DIVIDAS
+                    var dividedValue = (expense.valueExpense / response.friends.length).toFixed(2);
+                    var date = new Date(expense.date);
+                    var formattedDate = date.toLocaleDateString('pt-BR');
+
+                    var debtRow = `
+                        <tr>
+                            <td>${expense.description}</td>
+                            <td>R$ ${expense.valueExpense.toFixed(2)}</td>
+                            <td>${formattedDate}</td>
+                            <td>R$ ${dividedValue} por pessoa</td>
+                        </tr>
+                    `;
+
+                    debtsTbody.append(debtRow);
+                });
+            } else {
+                debtsTbody.append('<tr><td colspan="3">Nenhuma dívida encontrada.</td></tr>');
+            }
+        },
+        error: function (jqXHR, textStatus, errorThrown) {
+            console.error('Erro ao obter detalhes do grupo:', textStatus, errorThrown);
+            alert('Erro ao obter detalhes do grupo');
+        }
+    });
 }

@@ -30,7 +30,8 @@ function parseJwt() {
     }).join(''));
 
     var user = JSON.parse(jsonPayload);
-    localStorage.setItem('idUser', user);
+    console.log(user);
+    localStorage.setItem('userInfo', user);
 }
 
 function cadastrarUsuario() {
@@ -113,8 +114,6 @@ function getUsers() {
             'Authorization': 'Bearer ' + token
         },
         success: function(response) {
-            console.log('Usuários obtidos com sucesso:', response);
-
             var resultadoTbody = $('#resultado');
             resultadoTbody.empty();
 
