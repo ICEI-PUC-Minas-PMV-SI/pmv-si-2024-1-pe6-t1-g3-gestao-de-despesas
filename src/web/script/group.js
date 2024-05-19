@@ -214,35 +214,6 @@ function getIdGroupByURL() {
     return idDoGrupo;
 }
 
-// function getGroupDetails() {
-//     var token = getToken();
-//     var idDoGrupo = getIdGroupByURL();
-
-//     if (!idDoGrupo) {
-//         console.error('ID do grupo não encontrado na URL.');
-//         return;
-//     }
-
-//     var apiUrl = `http://localhost:5286/api/Groups/${idDoGrupo}`;
-
-//     $.ajax({
-//         url: apiUrl,
-//         method: 'GET',
-//         headers: {
-//             'Authorization': 'Bearer ' + token
-//         },
-//         success: function(response) {
-//             console.log(response)
-//             // $('#group-name').text(response.nameGroup);
-//             // $('#group-description').text(response.description);
-//         },
-//         error: function(jqXHR, textStatus, errorThrown) {
-//             console.error('Erro ao obter detalhes do grupo:', textStatus, errorThrown);
-//             alert('Erro ao obter detalhes do grupo');
-//         }
-//     });
-// }
-
 function getGroupDetails() {
     var token = getToken();
     var idDoGrupo = getIdGroupByURL();
