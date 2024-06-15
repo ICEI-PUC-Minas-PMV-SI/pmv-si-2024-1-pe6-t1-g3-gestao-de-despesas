@@ -11,7 +11,18 @@ Objetivos:<br/>
 * Promover transparência e clareza na gestão das despesas.<br/>
 
 ## Tecnologias Utilizadas
-[Lista das tecnologias principais que serão utilizadas no projeto.]
+<!--[Lista das tecnologias principais que serão utilizadas no projeto.]-->
+
+Front-end:
+<br/>
+* React Native (para uma experiência nativa em dispositivos iOS e Android).<br/>
+* HTML, CSS, Bootstrap (para web interfaces).<br/>
+* JavaScript, jQuery.<br/>
+
+Back-end:
+<br/>
+* Node.js (para API RESTful).<br/>
+* Banco de dados Microsoft SQL Server (para armazenamento de dados).<br/>
 
 ## Arquitetura
 
