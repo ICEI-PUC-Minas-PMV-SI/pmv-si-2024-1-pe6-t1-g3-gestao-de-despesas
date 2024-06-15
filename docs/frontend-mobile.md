@@ -44,7 +44,17 @@ Componentes e suas Interações:<br/>
 
 
 ## Modelagem da Aplicação
-[Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]
+<!-- [Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.] -->
+
+**Entidades**:<br/>
+**1 - Users**: Informações cadastrais do usuário.<br/>
+**2 - Friends**: Usuários associados a um grupo de amigos.<br/>
+**3 - Groups**: Registro de dados relacionados ao grupo de despesas. <br/>
+**4 - Expenses**: Registro de despesas e valores associados ao grupo.<br/>
+**5 - Payments**: Registro de pagamentos por integrante do grupo.<br/>
+
+![Modelagem da aplicação](img/Modelagem.jpg)
+
 
 ## Projeto da Interface
 [Descreva o projeto da interface móvel da aplicação, incluindo o design visual, layout das páginas, interações do usuário e outros aspectos relevantes.]
