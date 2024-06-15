@@ -108,13 +108,40 @@ Prevenção de Ataques: Proteção contra ataques comuns (SQL Injection, XSS) <b
 
 ## Implantação
 
-[Instruções para implantar a aplicação distribuída em um ambiente de produção.]
+<!-- [Instruções para implantar a aplicação distribuída em um ambiente de produção.] -->
 
-1. Defina os requisitos de hardware e software necessários para implantar a aplicação em um ambiente de produção.
-2. Escolha uma plataforma de hospedagem adequada, como um provedor de nuvem ou um servidor dedicado.
-3. Configure o ambiente de implantação, incluindo a instalação de dependências e configuração de variáveis de ambiente.
-4. Faça o deploy da aplicação no ambiente escolhido, seguindo as instruções específicas da plataforma de hospedagem.
-5. Realize testes para garantir que a aplicação esteja funcionando corretamente no ambiente de produção.
+<!-- 1. Defina os requisitos de hardware e software necessários para implantar a aplicação em um ambiente de produção. -->
+
+1. Requisitos de Hardware e Software:
+* Servidores com Node.js instalado.
+* Banco de dados Microsoft SQL Server.
+* Infraestrutura de nuvem.
+
+<!-- 2. Escolha uma plataforma de hospedagem adequada, como um provedor de nuvem ou um servidor dedicado. -->
+   
+2. Plataforma de Hospedagem:
+* Provedor de nuvem: Render.
+   
+<!-- 3. Configure o ambiente de implantação, incluindo a instalação de dependências e configuração de variáveis de ambiente. -->
+
+3. Configuração do Ambiente de Implantação:
+
+* Instalação de dependências (Node.js, banco de dados).
+* Configuração de variáveis de ambiente (chaves de API, credenciais de banco de dados).
+
+<!-- 4. Faça o deploy da aplicação no ambiente escolhido, seguindo as instruções específicas da plataforma de hospedagem.-->
+
+4. Deploy da Aplicação:
+
+* Seguir as instruções da plataforma de hospedagem.
+* Configuração de servidores, DNS e balanceamento de carga.
+
+<!-- 5. Realize testes para garantir que a aplicação esteja funcionando corretamente no ambiente de produção.-->
+
+5. Testes:
+
+* Testes de funcionalidade para garantir que a aplicação esteja funcionando corretamente.
+* Testes de desempenho e segurança.
 
 ## Testes
 
