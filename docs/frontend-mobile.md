@@ -26,8 +26,19 @@ Back-end:
 
 ## Arquitetura
 
-[Descrição da arquitetura das aplicação móvel, incluindo os componentes e suas interações.]
+<!-- [Descrição da arquitetura das aplicação móvel, incluindo os componentes e suas interações.] -->
 
+Descrição da Arquitetura:
+<br/>
+* Camada de Apresentação (Front-end): Utiliza React Native para interfaces móveis, garantindo uma experiência nativa em dispositivos iOS e Android. Para interfaces web, são utilizados HTML, CSS, Bootstrap, JavaScript e jQuery.<br/>
+* Camada de Aplicação (Back-end): Node.js com uma API RESTful para gerenciamento de dados e lógica de negócios.<br/>
+* Camada de Dados: Banco de dados Microsoft SQL Server para armazenamento e recuperação de dados.<br/>
+
+Componentes e suas Interações:<br/>
+
+* Aplicativo Móvel: Interface do usuário, registro de despesas, visualização de histórico.<br/>
+* API RESTful: Interage com o front-end para enviar e receber dados.<br/>
+* Banco de Dados: Armazena informações de usuários, grupos, despesas e transações.<br/>
 
 ![Arquitetura Web](img/arquitetura_mobile.jpg)
 
