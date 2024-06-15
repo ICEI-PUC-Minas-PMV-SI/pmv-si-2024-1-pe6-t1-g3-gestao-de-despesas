@@ -28,6 +28,10 @@ Back-end:
 
 [Descrição da arquitetura das aplicação móvel, incluindo os componentes e suas interações.]
 
+
+![Arquitetura Web](img/arquitetura_mobile.jpg)
+
+
 ## Modelagem da Aplicação
 [Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]
 
