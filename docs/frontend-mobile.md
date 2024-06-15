@@ -1,6 +1,14 @@
 # Front-end Móvel
 
-[Inclua uma breve descrição do projeto e seus objetivos.]
+<!-- [Inclua uma breve descrição do projeto e seus objetivos.] -->
+Descrição do Projeto:<br/>
+<br/>O projeto "Gestão de Despesas" é um aplicativo desenvolvido para simplificar a gestão financeira compartilhada em diversas situações e em qualquer lugar a partir do dispositivo móvel. Ele visa eliminar as dificuldades comuns na divisão de despesas, proporcionando uma plataforma intuitiva e eficiente para registro e gerenciamento das despesas compartilhadas. O objetivo é promover uma experiência mais harmoniosa para todos os envolvidos, independentemente de seus perfis e habilidades tecnológicas.<br/>
+
+Objetivos:<br/>
+
+* Facilitar a divisão justa de despesas entre amigos e grupos.<br/>
+* Oferecer uma interface intuitiva e acessível.<br/>
+* Promover transparência e clareza na gestão das despesas.<br/>
 
 ## Tecnologias Utilizadas
 [Lista das tecnologias principais que serão utilizadas no projeto.]
