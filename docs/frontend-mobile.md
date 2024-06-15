@@ -63,7 +63,13 @@ Componentes e suas Interações:<br/>
 
 ## Fluxo de Dados
 
-[Diagrama ou descrição do fluxo de dados na aplicação.]
+<!-- [Diagrama ou descrição do fluxo de dados na aplicação.] -->
+
+O diagrama abaixo ilustra a entrada e saída de dados entre os usuários na aplicação. <br/>
+
+![Modelagem da aplicação](img/FluxoDados.jpg)
+
+<br/>
 
 ## Requisitos Funcionais
 
