@@ -99,7 +99,12 @@ Componentes e suas Interações:<br/>
 
 ## Considerações de Segurança
 
-[Discuta as considerações de segurança relevantes para a aplicação distribuída, como autenticação, autorização, proteção contra ataques, etc.]
+<!-- [Discuta as considerações de segurança relevantes para a aplicação distribuída, como autenticação, autorização, proteção contra ataques, etc.] -->
+
+Autenticação: Autenticação e autorização da API através do token JWT. <br/>
+Senhas: Armazenamento de senha via banco de dados. <br/>
+Autorização: Controle de acesso baseado em papéis. <br/>
+Prevenção de Ataques: Proteção contra ataques comuns (SQL Injection, XSS) <br/>
 
 ## Implantação
 
