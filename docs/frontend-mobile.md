@@ -26,21 +26,24 @@ Back-end:
 
 ## Arquitetura
 
-<!-- [Descrição da arquitetura das aplicação móvel, incluindo os componentes e suas interações.] -->
+<!-- [Descrição da arquitetura das aplicação móvel, incluindo os componentes e suas interações.]  -->
 
 Descrição da Arquitetura:
 <br/>
-* Camada de Apresentação (Front-end): Utiliza React Native para interfaces móvei.
-* Camada de Aplicação (Back-end): Node.js com uma API RESTful para gerenciamento de dados e lógica de negócios.<br/>
+
+A arquitetura de software apresenta duas camadas principais: front-end e back-end. No front-end, o aplicativo móvel é construído com o framework React Native. Os usuários interagem com o aplicativo em seus dispositivos móveis, tanto  iOS quanto Android, e essas interações são gerenciadas pelo framework.
+
+No back-end, uma API RESTful serve como repositório, processando requisições HTTP originadas pelo front-end para executar operações CRUD no banco de dados. A API utilizada é aquela desenvolvida pelo grupo durante a segunda etapa do projeto. A comunicação entre o front-end e o back-end ocorre pela internet. O React Native envia requisições para a API REST, que processa essas requisições e retorna respostas conforme necessário, atualizando a interface do usuário.
+
+Essa arquitetura facilita uma interação dinâmica entre o aplicativo móvel e o servidor, essencial para aplicativos que precisam acessar e manipular dados em tempo real..<br/>
 
 
 Componentes e suas Interações:<br/>
 
 * Aplicativo Móvel: Interface do usuário, registro de despesas, quitação de despesas, visualização de histórico.<br/>
 * API RESTful: Interage com o front-end para enviar e receber dados.<br/>
-* Banco de Dados: Armazena informações de usuários, grupos, despesas e transações.<br/>
 
-![Arquitetura Web](img/arquitetura_mobile.jpg)
+![Arquitetura Web](img/Arq.Mobile.jpg)
 
 
 ## Modelagem da Aplicação
