@@ -223,13 +223,68 @@ Prevenção de Ataques: Proteção contra ataques comuns (SQL Injection, XSS) <b
 
 ## Testes
 
-[Descreva a estratégia de teste, incluindo os tipos de teste a serem realizados (unitários, integração, carga, etc.) e as ferramentas a serem utilizadas.]
+<!-- [Descreva a estratégia de teste, incluindo os tipos de teste a serem realizados (unitários, integração, carga, etc.) e as ferramentas a serem utilizadas.]
 
 1. Crie casos de teste para cobrir todos os requisitos funcionais e não funcionais da aplicação.
 2. Implemente testes unitários para testar unidades individuais de código, como funções e classes.
 3. Realize testes de integração para verificar a interação correta entre os componentes da aplicação.
 4. Execute testes de carga para avaliar o desempenho da aplicação sob carga significativa.
-5. Utilize ferramentas de teste adequadas, como frameworks de teste e ferramentas de automação de teste, para agilizar o processo de teste.
+5. Utilize ferramentas de teste adequadas, como frameworks de teste e ferramentas de automação de teste, para agilizar o processo de teste. -->
+
+Seguem abaixo os testes de usabilidade considerando os requisitos especificados neste documento, assim como a utilização da aplicação integrada com a API:
+
+**1- Página de login**:<br/>
+
+![Modelagem da aplicação](img/app_pagina_login.PNG)
+<br/>
+
+**2- Home**: Ao fazer login, usuário é direcionado para página home que contém a lista de despesas. <br/>
+
+![Modelagem da aplicação](img/app_pagina_home.PNG)
+<br/>
+
+**3- Editar Despesa**: Tela de edição de despesa. <br/>
+
+![Modelagem da aplicação](img/app_pagina_edit_despesa.PNG)
+<br/>
+
+**4- Cadastrar despesa**: Tela para adicionar uma nova despesa. <br/>
+
+![Modelagem da aplicação](img/app_pagina_adicionar_despesa.png)
+<br/>
+
+**5- Despesa cadastrada**: Home exibindo a nova despesa cadastrada. <br/>
+
+![Modelagem da aplicação](img/app_pagina_lista_despesa_cadastrada.png)
+<br/>
+
+**6- Quitar despesa**: Tela contendo as informações para quitação de despesa. <br/>
+
+![Modelagem da aplicação](img/app_pagina_quitar_despesa.png)
+<br/>
+
+**7- Despesa Quitada**: Tela exibindo a despesa quitada. <br/>
+
+![Modelagem da aplicação](img/app_pagina_despesa_quitada.png)
+<br/>
+
+**8- Lista despesa quitada**: Tela Home exibindo a lista de despesas com a despesa quitada. <br/>
+
+![Modelagem da aplicação](img/app_pagina_lista_despesa_quitada.png)
+<br/>
+
+**9- Excluir despesa**: Tela de edição com opção de exclusão de despesa. <br/>
+
+![Modelagem da aplicação](img/app_pagina_excluir_despesa.png)
+<br/>
+
+**10- Despesa Excluída**: Tela Home contendo a despesa excluída. <br/>
+
+![Modelagem da aplicação](img/app_pagina_lista_despesa_excluida.png)
+<br/>
+
+
+
 
 # Referências
 
