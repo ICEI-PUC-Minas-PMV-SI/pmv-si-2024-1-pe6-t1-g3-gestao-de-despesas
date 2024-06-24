@@ -286,6 +286,6 @@ Seguem abaixo os testes de usabilidade considerando os requisitos especificados 
 
 
 
-# Referências
+<!-- # Referências
 
-Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
+Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho. -->
