@@ -1,0 +1,1 @@
+export const BASE_URL = 'https://api-gestao-despesas-tms3.onrender.com/api';
