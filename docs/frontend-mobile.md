@@ -250,37 +250,37 @@ Seguem abaixo os testes de usabilidade considerando os requisitos especificados 
 
 **4- Cadastrar despesa**: Tela para adicionar uma nova despesa. <br/>
 
-![Modelagem da aplicação](img/app_pagina_adicionar_despesa.png)
+![Modelagem da aplicação](img/app_pagina_adicionar_despesa.PNG)
 <br/>
 
 **5- Despesa cadastrada**: Home exibindo a nova despesa cadastrada. <br/>
 
-![Modelagem da aplicação](img/app_pagina_lista_despesa_cadastrada.png)
+![Modelagem da aplicação](img/app_pagina_lista_despesa_cadastrada.PNG)
 <br/>
 
 **6- Quitar despesa**: Tela contendo as informações para quitação de despesa. <br/>
 
-![Modelagem da aplicação](img/app_pagina_quitar_despesa.png)
+![Modelagem da aplicação](img/app_pagina_quitar_despesa.PNG)
 <br/>
 
 **7- Despesa Quitada**: Tela exibindo a despesa quitada. <br/>
 
-![Modelagem da aplicação](img/app_pagina_despesa_quitada.png)
+![Modelagem da aplicação](img/app_pagina_despesa_quitada.PNG)
 <br/>
 
 **8- Lista despesa quitada**: Tela Home exibindo a lista de despesas com a despesa quitada. <br/>
 
-![Modelagem da aplicação](img/app_pagina_lista_despesa_quitada.png)
+![Modelagem da aplicação](img/app_pagina_lista_despesa_quitada.PNG)
 <br/>
 
 **9- Excluir despesa**: Tela de edição com opção de exclusão de despesa. <br/>
 
-![Modelagem da aplicação](img/app_pagina_excluir_despesa.png)
+![Modelagem da aplicação](img/app_pagina_excluir_despesa.PNG)
 <br/>
 
 **10- Despesa Excluída**: Tela Home contendo a despesa excluída. <br/>
 
-![Modelagem da aplicação](img/app_pagina_lista_despesa_excluida.png)
+![Modelagem da aplicação](img/app_pagina_lista_despesa_excluida.PNG)
 <br/>
 
 
